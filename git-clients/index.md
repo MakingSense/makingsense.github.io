@@ -38,23 +38,6 @@ Posh-Git.
 * Need to remember the commands
 * Difficult to see diffs and branches
 
-#### GitHub for Windows
-
-##### GitHub for Windows Pros
-
-* Very useful and intuitive for non-technical users. 
-* It abstracts Git representations and commands.
-* Very nice UI.
-* Completely integrated with your GitHub account.
-
-##### GitHub for Windows Cons
-
-* It abstracts Git representations and commands.
-* Incomplete Git functionality.
-* Not so intuitive if you understand and like Git internal behaviour.
-
-#### GitHub for Mac
-
 #### Git Extensions
 
 [Git Extensions](https://code.google.com/p/gitextensions/) is a graphical user 
@@ -79,3 +62,20 @@ line tool and Git bash.
 #### Atlassian SourceTree
 
 #### Visual Studio
+
+#### GitHub for Windows
+
+##### GitHub for Windows Pros
+
+* Very useful and intuitive for non-technical users. 
+* It abstracts Git representations and commands.
+* Very nice UI.
+* Completely integrated with your GitHub account.
+
+##### GitHub for Windows Cons
+
+* It abstracts Git representations and commands.
+* Incomplete Git functionality.
+* Not so intuitive if you understand and like Git internal behaviour.
+
+#### GitHub for Mac
