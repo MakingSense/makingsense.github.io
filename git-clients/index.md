@@ -44,6 +44,25 @@ Posh-Git.
 
 #### Git Extensions
 
+[Git Extensions](https://code.google.com/p/gitextensions/) is a graphical user 
+interface for Git that allows a complete Git control without using the command 
+line. Optionally, on the installation process, it could install Git command 
+line tool and Git bash.
+
+![Git Extensions](git-extensions.png)
+
+##### Git Extensions Pros
+
+* Complete Git functionality.
+* Near to one to one relation with command line commands.
+* Easy to remember commands because they have icons
+* Nice view of diffs and branches.
+
+##### Git Extensions Cons
+
+* It is not so quick as command line.
+* Difficult to understand if you do not want to understand Git internal behaviour.
+
 #### Atlassian SourceTree
 
 #### Visual Studio
