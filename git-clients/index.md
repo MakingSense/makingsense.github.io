@@ -27,6 +27,17 @@ It is possible to use Git command line tool with `cmd.exe` (discouraged) and als
 Mac and also in Windows or you can use it with _PowerShell_. It is a nice PowerShell extension named 
 Posh-Git.
 
+##### Pros
+
+* Complete functionality
+* Very quick when you know the commands
+* No impedance with Git internal behaviour
+
+##### Cons
+
+* Need to remember the commands
+* Difficult to see diffs and branches
+
 #### GitHub for Windows
 
 #### GitHub for Mac
