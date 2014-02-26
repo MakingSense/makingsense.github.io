@@ -21,7 +21,7 @@ Visual Studio, it may intimidate, but, come on! we are
 the challenge. What is more, Microsoft itself is taking that way with _C# compiler (csc)_, _Windows 
 Azure Cross-Platform Command-Line Interface_, _TypeScript Compiler (tsc)_ and _PowerShell_.
 
-![Posh-Git over PowerShell and Git bash](git-commandline.png)
+![Posh-Git over PowerShell and Git bash](git-clients-commandline.png)
 
 It is possible to use Git command line tool with `cmd.exe` (discouraged) and also with _bash_ in Linux, 
 Mac and also in Windows or you can use it with _PowerShell_. It is a nice PowerShell extension named 
@@ -45,7 +45,7 @@ interface for Git that allows a complete Git control without using the command
 line. Optionally, on the installation process, it could install Git command 
 line tool and Git bash.
 
-![Git Extensions](git-extensions.png)
+![Git Extensions](git-clients-git-extensions.png)
 
 ##### Git Extensions Pros
 

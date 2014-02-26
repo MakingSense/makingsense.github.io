@@ -8,6 +8,6 @@ title: Working with git
 It will include information like:
 
 * Commands
-* Clients
+* [Clients](git-clients)
 * Conventions
 * Standards
