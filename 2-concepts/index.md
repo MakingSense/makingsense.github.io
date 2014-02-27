@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Concepts
+title: Git concepts
 ---
-
-### Concepts
 
 It will include information about:
 

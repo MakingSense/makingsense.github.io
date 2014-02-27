@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Why migrate
+title: Why migrate to Git
 ---
-
-### Why migrate
 
 It will include information about:
 
