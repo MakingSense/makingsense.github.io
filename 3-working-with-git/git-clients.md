@@ -3,8 +3,6 @@ layout: default
 title: Git clients
 ---
 
-### Git clients
-
 There are a lot of available clients for Git, some of these expose the internal Git design and 
 architecture to the user, others hides the real Git power simplifying it for non-technical 
 users. 
@@ -13,7 +11,7 @@ In general, at least for programmers, it is a good think to know how Git works, 
 allow us to take advantage of it. For that reason, most of the Git clients including a short-cut 
 to Git command line tool.
 
-#### Git command line tool
+### Git command line tool
 
 The original Git user interface is the command line tool. Since many of us are accustomed to using 
 Visual Studio, it may intimidate, but, come on! we are 
@@ -27,18 +25,18 @@ It is possible to use Git command line tool with `cmd.exe` (discouraged) and als
 Mac and also in Windows or you can use it with _PowerShell_. It is a nice PowerShell extension named 
 Posh-Git.
 
-##### Git command line tool Pros
+#### Git command line tool Pros
 
 * Complete functionality
 * Very quick when you know the commands
 * No impedance with Git internal behaviour
 
-##### Git command line tool Cons
+#### Git command line tool Cons
 
 * Need to remember the commands
 * Difficult to see diffs and branches
 
-#### Git Extensions
+### Git Extensions
 
 [Git Extensions](https://code.google.com/p/gitextensions/) is a graphical user 
 interface for Git that allows a complete Git control without using the command 
@@ -47,35 +45,35 @@ line tool and Git bash.
 
 ![Git Extensions](git-clients-git-extensions.png)
 
-##### Git Extensions Pros
+#### Git Extensions Pros
 
 * Complete Git functionality.
 * Near to one to one relation with command line commands.
 * Easy to remember commands because they have icons
 * Nice view of diffs and branches.
 
-##### Git Extensions Cons
+#### Git Extensions Cons
 
 * It is not so quick as command line.
 * Difficult to understand if you do not want to understand Git internal behaviour.
 
-#### Atlassian SourceTree
+### Atlassian SourceTree
 
-#### Visual Studio
+### Visual Studio
 
-#### GitHub for Windows
+### GitHub for Windows
 
-##### GitHub for Windows Pros
+#### GitHub for Windows Pros
 
 * Very useful and intuitive for non-technical users. 
 * It abstracts Git representations and commands.
 * Very nice UI.
 * Completely integrated with your GitHub account.
 
-##### GitHub for Windows Cons
+#### GitHub for Windows Cons
 
 * It abstracts Git representations and commands.
 * Incomplete Git functionality.
 * Not so intuitive if you understand and like Git internal behaviour.
 
-#### GitHub for Mac
+### GitHub for Mac

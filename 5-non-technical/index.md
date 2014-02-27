@@ -1,8 +1,6 @@
 ---
 layout: default
-title: Non technical
+title: Git is for our non-technical people too
 ---
-
-### Non technical 
 
 It will include information for non developers 

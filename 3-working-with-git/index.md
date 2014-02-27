@@ -1,11 +1,9 @@
 ---
 layout: default
-title: Working with git
+title: Working with Git
 ---
 
-### Working with git
-
-* [Clients](git-clients.html) (hint)
+* [Git clients](git-clients.html) (hint)
 * [Remotes naming](remotes-naming.html) (hint)
 * [Commits description](commits-description.html) (mandatory)
 

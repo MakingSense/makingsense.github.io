@@ -1,8 +1,6 @@
 ---
 layout: default
-title: Flows
+title: Flows and Branching models
 ---
 
-### Flows
-
-It will include information about the flows proposed for our projects
+It will include information about the Flows and Branching models proposed for our projects
