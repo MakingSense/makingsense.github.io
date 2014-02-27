@@ -4,10 +4,10 @@ title: Git clients
 ---
 
 There are a lot of available clients for Git, some of these expose the internal Git design and 
-architecture to the user, others hides the real Git power simplifying it for non-technical 
+architecture to the user, others hide the real Git power simplifying it for non-technical 
 users. 
 
-In general, at least for programmers, it is a good think to know how Git works, because in will
+In general, at least for programmers, it is a good thing to know how Git works, because in will
 allow us to take advantage of it. For that reason, most of the Git clients including a short-cut 
 to Git command line tool.
 
