@@ -14,13 +14,15 @@ a simplified version of _git-flow_ adapted to environments where releases are do
 too much frequently.
 
 Some flows proposed for our projects:
-<!--- We need to talk with the TLs in order to define them, and others --->
+<!-- We need to talk with the TLs in order to define them, and others -->
 
 * migration-to-git Flow (because it is also important to know how to enhance 
   this documentation)
 * Doppler Flow 
 * Lander Flow 
-* DCA Flow <!--- I am not sure to include the complete Project and Client name here --->
+* DCA Flow 
+
+<!-- About DCA, I am not sure to include the complete Project and Client name here -->
 
 
 
