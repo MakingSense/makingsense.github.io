@@ -17,6 +17,8 @@ over a stable environment.
 
 This is basically our workflow:
 
+![Sprint template](dca-sprint.png)
+
 1. In a sprint, DEV team develop a set of features or stories. 
 2. Before integrate each feature, DEV team made a quick pair code review.
 3. During the sprint DEV team deploy regularly to INT environment to allow QA 
@@ -39,30 +41,100 @@ Our "central" repository path is https://github.com/MakingSense/dca (it does not
 exist yet), we will call it **origin** (and suggest to call it origin in your 
 local clones).
 
-In the origin repository we store develop branch, stabilization branch, releases
-branches, hotfixes branches, releases tasks and optionally features branches.
+In the origin repository we maintain: _develop_ branch, _stabilization_ branch, 
+_releases_ branches, _hotfixes_ branches, _releases_ tags and optionally 
+_features_ branches.
 
 #### Personal forks
 
 We animate the team to have personal forks of origin repository in order to work
 freely (we suggest to call it with your username in your local clones).
 
-In a personal fork are stored features branchs and whatever the contributor wants.
+In a personal fork are maintained _features_ branches and whatever the 
+contributor wants.
 
-It is allowed to _rewrite the history_ in personal branches, but try to not do 
-it on branches with pull request associated or shared with other users.
+**Note:** It is allowed to _rewrite the history_ in personal branches, but try 
+to not do it on branches with _pull request_ associated or shared with other 
+users.
 
-#### The worflow
+#### Our git flow
 
-1. Sprint starts. In the planning we choose a lot features to implement!
-2. Developers create features branches based on develop branch. These branches 
-   could be stored on origin if some of them plan to work together, or it could 
-   be stored on his personal forks.
-3. When a feature is done, developers create a pull request using GitHub tool.
-4. After some pair review, the feature branch is merged to develop.
-5. When the sprint finish, we merge develop branch to stabilization branch. It 
-   is a modification over [git-flow].
-6. Work in progress
+**Initial configuration:** 
 
+team members have cloned origin repository in their 
+local environments (see [clone a remote repo]). Also, they have created 
+personal forks (see [fork a remote repo]) and they have configured their local 
+"remotes" repositories (see [configure remotes]). 
+
+Sprint `N` starts. In the planning we choose a lot features to implement!
+
+**Steps:**
+
+1. A developer chooses a task or feature to implement from sprint board.
+
+    * If the task is enough large, he can create a sub-task and put it in "in 
+      progress" state. 
+    * He updates his local clone with the latest changes (see [fetch remotes]).
+    * Based on _develop_ branch, he creates a local branch for the feature (with 
+      a representative name) (see [create a new branch]).
+	  
+2. Our developer works in the task
+
+    * He tries to commit atomic and meaning changes (see [commit changes]).
+    * He tries to keep his changes pushed to a remote repository, it could be 
+      _origin_ or his _personal fork_ (see [push to a remote repo]).
+	  
+3. Task is done
+
+    * Our developer commits and push all his changes to the remote and creates 
+      a _pull request_ to _develop_(see [creating a pull request]).
+    * Some other developers in the team do a quick code review.
+    * After someone else has reviewed and signed off on the feature it could be 
+      merged to _develop_. If something is wrong, discussion can continue in the 
+      _pull request_ and fixes can be pull to the _feature_ branch (see 
+ 	  [working with pull requests]).
+
+4. Sprint finishes
+
+    * Someone merge _develop_ branch to _stabilization_ branch (see 
+      [merge remote branches]). It is a modification over [git-flow].
+    * Sprint `N+1` starts with a planning.
+
+5. Issues in _stabilization_ branch
+
+    * The client and QA team detect issues in _stabilization_ branch, they are 
+      prioritized and some of them cold be included in current sprint `N+1`
+    * In order to fix them, our developer creates a new branch, the steps are 
+      like in points `1`, `2` and `3` but based on _stabilization_ branch in 
+	  place of _develop_.
+    * _stabilization_ branch is fairly often merged to _develop_.
+
+6. Release is closer
+
+    * Someone creates a new branch based on _stabilization_ to prepare production 
+      release, do minor bug fixes and preparing meta-data like version number, 
+	  build dates, etc.
+    * When it is done, is merged to _master_ branch, tagged with the version 
+      number and deployed to production immediately.
+    * Of course, the changes and fixes are fairly often merged to _develop_ and 
+      _stabilization_ branches.
+
+7. Hurry! A critical issue in Production!
+
+    * If something goes wrong in production, the process to fix it is similar to 
+      steps `1`, `2` and `3` but based on a new _hotfix_ branch based on _master_ 
+	  branch.
+
+	  
 
 [git-flow]: http://nvie.com/posts/a-successful-git-branching-model/
+[clone a remote repo]: /migration-to-git/3-working-with-git/clone-remote-repo
+[fork a remote repo]: /migration-to-git/3-working-with-git/fork-a-repo
+[configure remotes]: /migration-to-git/3-working-with-git/configure-remotes
+[fetch remotes]: /migration-to-git/3-working-with-git/fetch-remotes
+[create a new branch]: /migration-to-git/3-working-with-git/create-a-new-branch
+[commit changes]: /migration-to-git/3-working-with-git/commit-changes
+[push to a remote repo]: /migration-to-git/3-working-with-git/push-to-a-remote-repo
+[creating a pull request]: /migration-to-git/3-working-with-git/creating-a-pull-request
+[working with pull requests]: /migration-to-git/3-working-with-git/working-with-pull-requests
+[merge remote branches]: /migration-to-git/3-working-with-git/merge-remote-branches
