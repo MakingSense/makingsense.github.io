@@ -128,13 +128,13 @@ Sprint `N` starts. In the planning we choose a lot features to implement!
 	  
 
 [git-flow]: http://nvie.com/posts/a-successful-git-branching-model/
-[clone a remote repo]: /migration-to-git/3-working-with-git/clone-remote-repo
-[fork a remote repo]: /migration-to-git/3-working-with-git/fork-a-repo
-[configure remotes]: /migration-to-git/3-working-with-git/configure-remotes
-[fetch remotes]: /migration-to-git/3-working-with-git/fetch-remotes
-[create a new branch]: /migration-to-git/3-working-with-git/create-a-new-branch
-[commit changes]: /migration-to-git/3-working-with-git/commit-changes
-[push to a remote repo]: /migration-to-git/3-working-with-git/push-to-a-remote-repo
-[creating a pull request]: /migration-to-git/3-working-with-git/creating-a-pull-request
-[working with pull requests]: /migration-to-git/3-working-with-git/working-with-pull-requests
-[merge remote branches]: /migration-to-git/3-working-with-git/merge-remote-branches
+[clone a remote repo]: /migration-to-git/3-working-with-git/clone-remote-repo.html
+[fork a remote repo]: /migration-to-git/3-working-with-git/fork-a-repo.html
+[configure remotes]: /migration-to-git/3-working-with-git/configure-remotes.html
+[fetch remotes]: /migration-to-git/3-working-with-git/fetch-remotes.html
+[create a new branch]: /migration-to-git/3-working-with-git/create-a-new-branch.html
+[commit changes]: /migration-to-git/3-working-with-git/commit-changes.html
+[push to a remote repo]: /migration-to-git/3-working-with-git/push-to-a-remote-repo.html
+[creating a pull request]: /migration-to-git/3-working-with-git/creating-a-pull-request.html
+[working with pull requests]: /migration-to-git/3-working-with-git/working-with-pull-requests.html
+[merge remote branches]: /migration-to-git/3-working-with-git/merge-remote-branches.html
