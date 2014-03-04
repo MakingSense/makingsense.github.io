@@ -7,7 +7,7 @@ Is is common to work with more than one remote repository. For example, you have
 a fork of an open source repository. Your fork is your **origin** remote and 
 remote original repository is commonly called **upstream**. 
 
-Another scenery is when you are working against a private remote repository 
+Another scenario is when you are working against a private remote repository 
 called **origin** and you have a personal fork named as your username. 
 
 In both cases you can have more remotes to see what is doing other people with 
