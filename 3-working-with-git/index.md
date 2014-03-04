@@ -28,12 +28,14 @@ support for openssh.
 * [clone a remote repo]
 * [configure remotes]
 * [fetch remotes]
+* [create a new branch]
 
 
 [fork a remote repo]: /migration-to-git/3-working-with-git/fork-a-repo.html
 [clone a remote repo]: /migration-to-git/3-working-with-git/clone-remote-repo.html
 [configure remotes]: /migration-to-git/3-working-with-git/configure-remotes.html
 [fetch remotes]: /migration-to-git/3-working-with-git/fetch-remotes.html
+[create a new branch]: /migration-to-git/3-working-with-git/create-a-new-branch.html
 
 ---
 
