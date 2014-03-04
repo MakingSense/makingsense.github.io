@@ -51,7 +51,7 @@ changes since our last commit - there is no un-snapshotted work in our checkout
 
 ---
 
-Some text extracted from http://gitref.org/basic/ ([CC BY 3.0](https://github.com/git/git-reference/blob/gh-pages/LICENSE.md))
+Some text extracted from <http://gitref.org/basic/> ([CC BY 3.0](https://github.com/git/git-reference/blob/gh-pages/LICENSE.md))
 
 [the Index]: /migration-to-git/2-concepts/the-index.html
 [commit conventions]: /migration-to-git/3-working-with-git/commit-conventions.html
