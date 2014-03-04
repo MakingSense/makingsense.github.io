@@ -19,7 +19,7 @@ cloning `https://github.com/MakingSense/migration-to-git`
 	cd migration-to-git
 
 It downloads a full copy of the remote repository into the selected folder 
-(.git folder) and also prepare the working tree and configure a _remote_ repo 
+(.git folder), prepare the working tree and also configure a _remote_ repo 
 named **origin** where you can fetch other people commits and push yours.
 
 If you want to work with more that one remote repository see [configure remotes].
