@@ -20,6 +20,12 @@ tool.
 **Warning**: Do not use PuTTY if you are given the option. GitHub only provides 
 support for openssh.
 
+### Conventions, standards and tips
+
+* [commit conventions]
+
+[commit conventions]: /migration-to-git/3-working-with-git/commit-conventions.html
+
 ### Operations
 
 <!-- it is pending to sort this -->
@@ -29,6 +35,7 @@ support for openssh.
 * [configure remotes]
 * [fetch remotes]
 * [create a new branch]
+* [commit changes]
 
 
 [fork a remote repo]: /migration-to-git/3-working-with-git/fork-a-repo.html
@@ -36,6 +43,7 @@ support for openssh.
 [configure remotes]: /migration-to-git/3-working-with-git/configure-remotes.html
 [fetch remotes]: /migration-to-git/3-working-with-git/fetch-remotes.html
 [create a new branch]: /migration-to-git/3-working-with-git/create-a-new-branch.html
+[commit changes]: /migration-to-git/3-working-with-git/commit-changes.html
 
 ---
 
