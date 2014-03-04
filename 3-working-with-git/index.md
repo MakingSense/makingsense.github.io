@@ -20,6 +20,15 @@ tool.
 **Warning**: Do not use PuTTY if you are given the option. GitHub only provides 
 support for openssh.
 
+### Operations
+
+<!-- it is pending to sort this -->
+
+
+---
+
+# WORK IN PROGRESS (probably deprecated)
+
 ### Create a local repository
 
 ### Commit changes
@@ -45,12 +54,15 @@ have troubles with authentication.
 * [Commits description](commits-description.html) (mandatory)
 
 
-***WORK IN PROGRESS***
+# MORE WORK IN PROGRESS (probably deprecated)
 
 It will include information like:
 * Commands
 * Conventions
 * Standards
+
+
+
 
 [remote-url-help]: https://help.github.com/articles/which-remote-url-should-i-use "Which remote URL should I use?"
 http://git-scm.com/downloads
