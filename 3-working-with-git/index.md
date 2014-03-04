@@ -26,10 +26,12 @@ support for openssh.
 
 * [fork a remote repo]
 * [clone a remote repo]
+* [configure remotes]
 
 
 [fork a remote repo]: /migration-to-git/3-working-with-git/fork-a-repo.html
 [clone a remote repo]: /migration-to-git/3-working-with-git/clone-remote-repo.html
+[configure remotes]: /migration-to-git/3-working-with-git/configure-remotes.html
 
 ---
 
