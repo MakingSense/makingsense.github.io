@@ -36,6 +36,10 @@ support for openssh.
 * [fetch remotes]
 * [create a new branch]
 * [commit changes]
+* [push to a remote repo]
+* [creating a pull request]
+* [working with pull requests]
+* [merge remote branches]
 
 
 [fork a remote repo]: /migration-to-git/3-working-with-git/fork-a-repo.html
@@ -44,6 +48,10 @@ support for openssh.
 [fetch remotes]: /migration-to-git/3-working-with-git/fetch-remotes.html
 [create a new branch]: /migration-to-git/3-working-with-git/create-a-new-branch.html
 [commit changes]: /migration-to-git/3-working-with-git/commit-changes.html
+[push to a remote repo]: /migration-to-git/3-working-with-git/push-to-a-remote-repo.html
+[creating a pull request]: /migration-to-git/3-working-with-git/creating-a-pull-request.html
+[working with pull requests]: /migration-to-git/3-working-with-git/working-with-pull-requests.html
+[merge remote branches]: /migration-to-git/3-working-with-git/merge-remote-branches.html
 
 ---
 
