@@ -24,6 +24,10 @@ support for openssh.
 
 <!-- it is pending to sort this -->
 
+* [fork a remote repo]
+
+
+[fork a remote repo]: /migration-to-git/3-working-with-git/fork-a-repo.html
 
 ---
 
