@@ -10,7 +10,7 @@ so if the original repository is private, the child repository too.
 
 To fork a repository you have to find it in GitHub and click on "Fork" button:
 
-    ![Fork button](fork-a-repo-fork-button.png)
+![Fork button](fork-a-repo-fork-button.png)
 	
 It will create a full copy of the original repository into your account.
 
