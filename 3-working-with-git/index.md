@@ -20,6 +20,43 @@ tool.
 **Warning**: Do not use PuTTY if you are given the option. GitHub only provides 
 support for openssh.
 
+### Conventions, standards and tips
+
+* [commit conventions]
+
+[commit conventions]: /migration-to-git/3-working-with-git/commit-conventions.html
+
+### Operations
+
+<!-- it is pending to sort this -->
+
+* [fork a remote repo]
+* [clone a remote repo]
+* [configure remotes]
+* [fetch remotes]
+* [create a new branch]
+* [commit changes]
+* [push to a remote repo]
+* [creating a pull request]
+* [working with pull requests]
+* [merge remote branches]
+
+
+[fork a remote repo]: /migration-to-git/3-working-with-git/fork-a-repo.html
+[clone a remote repo]: /migration-to-git/3-working-with-git/clone-remote-repo.html
+[configure remotes]: /migration-to-git/3-working-with-git/configure-remotes.html
+[fetch remotes]: /migration-to-git/3-working-with-git/fetch-remotes.html
+[create a new branch]: /migration-to-git/3-working-with-git/create-a-new-branch.html
+[commit changes]: /migration-to-git/3-working-with-git/commit-changes.html
+[push to a remote repo]: /migration-to-git/3-working-with-git/push-to-a-remote-repo.html
+[creating a pull request]: /migration-to-git/3-working-with-git/creating-a-pull-request.html
+[working with pull requests]: /migration-to-git/3-working-with-git/working-with-pull-requests.html
+[merge remote branches]: /migration-to-git/3-working-with-git/merge-remote-branches.html
+
+---
+
+# WORK IN PROGRESS (probably deprecated)
+
 ### Create a local repository
 
 ### Commit changes
@@ -45,12 +82,15 @@ have troubles with authentication.
 * [Commits description](commits-description.html) (mandatory)
 
 
-***WORK IN PROGRESS***
+# MORE WORK IN PROGRESS (probably deprecated)
 
 It will include information like:
 * Commands
 * Conventions
 * Standards
+
+
+
 
 [remote-url-help]: https://help.github.com/articles/which-remote-url-should-i-use "Which remote URL should I use?"
 http://git-scm.com/downloads
