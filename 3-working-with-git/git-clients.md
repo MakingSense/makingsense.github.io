@@ -75,5 +75,6 @@ line tool and Git bash.
 * It abstracts Git representations and commands.
 * Incomplete Git functionality.
 * Not so intuitive if you understand and like Git internal behaviour.
+* *It does not support remotes*, only origin
 
 ### GitHub for Mac
