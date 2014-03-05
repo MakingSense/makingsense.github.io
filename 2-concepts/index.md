@@ -21,7 +21,7 @@ In that `.git` directory there are four important entries: the `HEAD` and `index
 
 #### Staging area aka Index
 
-Is the place where you prepare your changes to commit_, a _middle_ between your working copy and the repository. You could add or remove files from the stage. Once you build your potential _next commit_ you usually want to review it using `git status` or `git diff`. Only then, you can _commit_ your changes with the command `git commit`.
+Is the place where you prepare your changes to commit, a _middle_ between your working copy and the repository. You could add or remove files from the stage. Once you build your potential _next commit_ you usually want to review it using `git status` or `git diff`. Only then, you can commit your changes with the command `git commit`.
 
 #### Clone
 
