@@ -23,8 +23,11 @@ support for openssh.
 ### Conventions, standards and tips
 
 * [commit conventions]
+* [dealing with line endings]
+
 
 [commit conventions]: /migration-to-git/3-working-with-git/commit-conventions.html
+[dealing with line endings]: /migration-to-git/3-working-with-git/dealing-with line-endings.html
 
 ### Operations
 
@@ -69,6 +72,7 @@ There are a lot of [Git GUI clients](git-clients.html). In general, we can said
 that [Git Extensions](http://makingsense.github.io/migration-to-git/3-working-with-git/git-clients.html#git_extensions)
 is a good choice to start because it helps you to understand how Git is working
 internally.
+
 
 ---
 
