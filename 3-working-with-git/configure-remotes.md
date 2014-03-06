@@ -20,7 +20,7 @@ You can list your remotes:
 	
 You can rename `upstream` as `making`:
 
-    git remote rename upstream as making:
+    git remote rename upstream making
 
 You can change remote's URL:
 	
