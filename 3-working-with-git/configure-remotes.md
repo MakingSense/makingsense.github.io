@@ -24,7 +24,7 @@ You can rename `upstream` as `making`:
 
 You can change remote's URL:
 	
-	git remote set-url making https://github.com/ms/migration-to-git
+    git remote set-url making https://github.com/MakingSenseRepo2/migration-to-git
 	
 And you can delete it:
 
