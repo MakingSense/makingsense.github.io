@@ -12,7 +12,8 @@ Only an advertisement, in order to avoid line endings conversion problems we rec
     [core]
 	autocrlf = false
 
-See more information in [dealing with line endings](/migration-to-git/3-working-with-git/dealing-with-line-endings) 
+See more information in [dealing with line endings](/migration-to-git/3-working-with-git/dealing-with-line-endings.html) 
+
 
 ---
 
