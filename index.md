@@ -5,6 +5,10 @@ title: Home
 
 We are migrating our source code repositories to Git and GitHub. 
 
+All content is licensed under the [Creative Commons Attribution Non Commercial Share Alike 3.0 license](http://creativecommons.org/licenses/by-nc-sa/3.0/).
+
+The source of this site is [hosted on GitHub](https://github.com/MakingSense/migration-to-git). Patches, suggestions, and comments are welcome.
+
 ### Content
 
 1. [Why migrate to Git](1-why-migrate)
