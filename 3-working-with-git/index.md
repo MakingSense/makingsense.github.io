@@ -14,7 +14,7 @@ we will use [Git commands] to explain some common actions.
 Installing Git is easy. In Linux, all repositories of all distributions have the 
 related packages available and updated. For Mac and Windows, you can download it 
 from [official Git download page] but we recommend to install your favourite 
-[graphic client](git-clients.html) because they also include the command line 
+[Git GUI](git-clients.html) because they also include the command line 
 tool.
 
 **Warning**: Do not use PuTTY if you are given the option. GitHub only provides 
@@ -23,8 +23,11 @@ support for openssh.
 ### Conventions, standards and tips
 
 * [commit conventions]
+* [dealing with line endings]
+
 
 [commit conventions]: /migration-to-git/3-working-with-git/commit-conventions.html
+[dealing with line endings]: /migration-to-git/3-working-with-git/dealing-with line-endings.html
 
 ### Operations
 
@@ -52,6 +55,24 @@ support for openssh.
 [creating a pull request]: /migration-to-git/3-working-with-git/creating-a-pull-request.html
 [working with pull requests]: /migration-to-git/3-working-with-git/working-with-pull-requests.html
 [merge remote branches]: /migration-to-git/3-working-with-git/merge-remote-branches.html
+
+### Configuration files
+
+* [.gitignore-file]
+* [.gitattributes-file]
+* [.gitconfig-file]
+
+[.gitignore-file]: /migration-to-git/3-working-with-git/gitignore-file.html
+[.gitattributes-file]: /migration-to-git/3-working-with-git/gitattributes-file.html
+[.gitconfig-file]: /migration-to-git/3-working-with-git/gitconfig-file.html
+
+### Git Clients
+
+There are a lot of [Git GUI clients](git-clients.html). In general, we can said 
+that [Git Extensions](http://makingsense.github.io/migration-to-git/3-working-with-git/git-clients.html#git_extensions)
+is a good choice to start because it helps you to understand how Git is working
+internally.
+
 
 ---
 
