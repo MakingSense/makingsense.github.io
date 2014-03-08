@@ -5,7 +5,7 @@ title: Repo Boilerplate
 
 This is an example about how to prepare a repository with our default configuration.
 
-Please, look it as a simple guide and not as a required step by step, you can adapt it to your necessities.
+Please, look it as a simple guide and not as a required step by step, you can adapt it to your needs.
 
 ![New repo button](repo-boilerplate-01-new-repo-button.png)
 
