@@ -23,9 +23,9 @@ The repository is created at GitHub.
 
 We will clone it locally `(1)` in order to our files (see [clone a remote repo]).
 
-We download [our default gitignore] `(2)`. I am using it using `wget` with the raw file URL: <https://raw.github.com/MakingSense/migration-to-git/gh-pages/3-working-with-git/examples/.gitignore>
+We download [our default gitignore] `(2)` by the raw file GitHub URL: <https://raw.github.com/MakingSense/migration-to-git/gh-pages/3-working-with-git/examples/.gitignore> (In the screenshot we are using `wget` command which is not included on Windows by default).
 
-And also [our default gitattributes] `(3)`. The raw file URL: <https://raw.github.com/MakingSense/migration-to-git/gh-pages/3-working-with-git/examples/.gitattributes>
+And also [our default gitattributes] `(3)`. The raw file GitHub URL is: <https://raw.github.com/MakingSense/migration-to-git/gh-pages/3-working-with-git/examples/.gitattributes>
 
 It is ready to commit (see [commit changes]), so we add all files to the index `(4)` and `(5)` commit them.
 
