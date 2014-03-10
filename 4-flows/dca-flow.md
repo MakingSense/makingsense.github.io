@@ -64,9 +64,7 @@ users.
 
 **Initial configuration:** 
 
-Team members have cloned `upstream` repository in their local environments (see [clone a remote repo]). Also, they have created 
-personal forks (see [fork a remote repo]) and they have configured their local 
-"remotes" repositories (see [configure remotes]). 
+`upstream` repository is created at GitHub (see [repo boilerplate]), team members have cloned it in their local environments (see [clone a remote repo]). Also, they have created personal forks (see [fork a remote repo]) and they have configured their local "remotes" repositories (see [configure remotes]). 
 
 Sprint `N` starts. In the planning we choose a lot features to implement!
 
@@ -130,6 +128,7 @@ Sprint `N` starts. In the planning we choose a lot features to implement!
 	  
 
 [git-flow]: http://nvie.com/posts/a-successful-git-branching-model/
+[repo boilerplate]: /migration-to-git/3-working-with-git/repo-boilerplate.html
 [clone a remote repo]: /migration-to-git/3-working-with-git/clone-remote-repo.html
 [fork a remote repo]: /migration-to-git/3-working-with-git/fork-a-repo.html
 [configure remotes]: /migration-to-git/3-working-with-git/configure-remotes.html
