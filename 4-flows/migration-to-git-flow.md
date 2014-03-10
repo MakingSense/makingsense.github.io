@@ -23,6 +23,8 @@ If you do not have time to fix the errors or add content, you can collaborate an
 
 If you want to edit site content (or also layout, styles, etc) we recommend you to fork the repository (see [fork a remote repo]) (I will call it `origin`),  clone it locally and also add a local remote for `upstream` (see [configure remotes]).
 
+To have your own fork is also very useful if you want preview your changes, if you push to `origin/gh-pages` you can preview your version rendered in `https://your-user-name.github.io/migration-to-git`.
+
 #### Add and edit content
 
 1. The first is to be sure to have local environment updated fetching remotes (see [fetch remotes]).
