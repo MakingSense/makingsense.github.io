@@ -5,11 +5,11 @@ title: Current Documentation Site Flow
 
 ### migration-to-git Flow
 
-The idea behind this flow, is to allow quickly create a documentation site with useful information for our internal migration. All of us are learning about it, so some content could be wrong, but it is easy to fix, right?
+The idea behind this flow, is to allow quickly create a documentation site with useful information for our internal migration, like a wiki. All of us are learning about it, so some content could be wrong, but it is easy to fix it, right?
 
 #### Base branch
 
-The sources of this site are stored on [GitHub repository](https://github.com/MakingSense/migration-to-git) (I will call it `upstream`). When something is pushed to the branch `upstream/gh-pages`, it is automatically published to [the site](http://makingsense.github.io/migration-to-git) by _GiHub Pages_.
+The sources of this site are stored on [GitHub repository](https://github.com/MakingSense/migration-to-git) (I will call it `upstream`). When something is pushed to the branch `upstream/gh-pages`, it is automatically published to [the public site](http://makingsense.github.io/migration-to-git) by _GiHub Pages_.
 
 #### Simple fixes and permissions
 
@@ -29,9 +29,14 @@ If you want to edit site content (or also layout, styles, etc) we recommend you 
 2. Then, you can create a new local branch based on `upstream/gh-pages` (see [create a new branch]), it is the last published version.
 3. Commit changes to our local branch (see [commit changes]).
 4. Push to your `origin` repository when you want (see [push to a remote repo])
-5. When you have something nice create a pull request against `upstream/gh-pages`(see [creating a pull request])
+5. When you have something nice, create a pull request against `upstream/gh-pages`(see [creating a pull request])
+6. Discuss and fix: after someone else has reviewed and signed off on the feature it could be merged to `upstream/gh-pages` (see [working with pull requests]). If something is wrong, discussion can continue in the _pull request_ and fixes can be push to the `origin` related branch. When all issues are fixed it could be merged.
 
-# WORK IN PROGRESS
+#### Edit quickly in the browser
+
+Another alternative to collaborate, is to made the changes directly in the browser. You can find useful information in the articles [GitHub Flow in the Browser](https://github.com/blog/1557-github-flow-in-the-browser) and [Web-flow editing from Pull Requests](https://github.com/blog/1738-web-flow-editing-from-pull-requests).
+
+
 
 [clone a remote repo]: /migration-to-git/3-working-with-git/clone-remote-repo.html
 [fork a remote repo]: /migration-to-git/3-working-with-git/fork-a-repo.html
