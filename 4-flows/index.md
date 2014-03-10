@@ -16,7 +16,7 @@ too much frequently.
 Some flows proposed for our projects:
 <!-- We need to talk with the TLs in order to define them, and others -->
 
-* migration-to-git Flow (because it is also important to know how to enhance 
+* [migration-to-git Flow](migration-to-git-flow.html) (because it is also important to know how to enhance 
   this documentation)
 * Doppler Flow 
 * Lander Flow 
