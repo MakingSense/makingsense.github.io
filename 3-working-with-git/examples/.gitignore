@@ -215,4 +215,7 @@ config/initializers/secret_token.rb
 .yardoc
 _yardoc
 
-
+# Android project (using Eclipse)
+/source/.settings/org.eclipse.jdt.core.prefs
+/source/bin/
+/source/gen/
