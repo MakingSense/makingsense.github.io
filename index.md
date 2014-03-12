@@ -7,7 +7,7 @@ We are migrating our source code repositories to Git and GitHub.
 
 All content is licensed under the [Creative Commons Attribution Non Commercial Share Alike 3.0 license](http://creativecommons.org/licenses/by-nc-sa/3.0/).
 
-The source of this site is [hosted on GitHub](https://github.com/MakingSense/migration-to-git). Patches, suggestions, and comments are welcome.
+The source of this site is [hosted on GitHub](https://github.com/MakingSense/migration-to-git). Patches, suggestions, and comments are welcome. You can see a complete description about how to collaborate in [migration-to-git Flow](/migration-to-git/4-flows/migration-to-git-flow.html).
 
 ### Content
 
