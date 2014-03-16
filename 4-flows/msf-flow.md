@@ -61,7 +61,7 @@ _A story of too much work and no play, which makes Jack a dull boy._
     * Git is going to apply your commits one at a time, and will pause if it finds a conflict it cannot resolve. If this is the case:
         * `git status` Git will show which files have conflicts. You’ll be able to open them and choose between your changes and other person’s changes. You’ll see the changes between big <<<<<<< HEAD and <<<<<<<< <your commit> indicators. **Fix the conflict** and make sure that the resulting file is correct and the way it was supposed to be at the end of that commit. If the commits are small, it is less likely that there will be conflicts, and they will be easier to solve too.
     * `git push -f origin <your-branch>:<your-branch>`
-    * Visit the BackBone repository in GitHub
+    * Visit the project repository in GitHub
     * On the left side of the toolbar, pick your branch
     * Click on the “Compare” green button
     * Make sure that on the comparison screen, “develop” and <your branch> are shown.
