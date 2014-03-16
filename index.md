@@ -16,3 +16,4 @@ The source of this site is [hosted on GitHub](https://github.com/MakingSense/mig
 3. [Working with Git](3-working-with-git)
 4. [Flows and Branching models](4-flows)
 5. [Git is for our non-technical people too](5-non-technical)
+6. [External Resources](external-resources.html)

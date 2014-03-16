@@ -20,10 +20,8 @@ Some flows proposed for our projects:
   this documentation)
 * Doppler Flow 
 * Lander Flow 
+* [MCP Flow](mcp-flow.html)
 * [DCA Flow](dca-flow.html)
-
-<!-- About DCA, I am not sure to include the complete Project and Client name here -->
-
 
 
 [A successful Git branching model]: http://nvie.com/posts/a-successful-git-branching-model/
