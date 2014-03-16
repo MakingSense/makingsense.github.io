@@ -77,16 +77,16 @@ _A story of too much work and no play, which makes Jack a dull boy._
     
 #### 4. TL gives feedback
 
-    * The TL will provide feedback to your changes. **Discuss with him/her the best approach to these changes** until you reach an agreement.
-    * After reaching an agreement, **work to fix all important / urgent items** that had been agreed to fix before including the pull request into the codebase.
-    * **Push your changes** to the same branch, so that the pull request is updated. You can make as many commits as you like, so you don’t need to do everything at once.
+* The TL will provide feedback to your changes. **Discuss with him/her the best approach to these changes** until you reach an agreement.
+* After reaching an agreement, **work to fix all important / urgent items** that had been agreed to fix before including the pull request into the codebase.
+* **Push your changes** to the same branch, so that the pull request is updated. You can make as many commits as you like, so you don’t need to do everything at once.
     
 #### 5. Merged. PR closed. Finished.
 
-    * At this point the TL has given the green light on your changes and has merged them into the codebase.
-    * Optionally, **you may test your changes into the CI environment.** This is recommended in the case of big changes or complex code. In the case of doubt, talk with your TL.
-    * **Give the green light to your TL** so that he/she moves everything to the QA bucket.
-    * The Quality Analyst will test your changes. If he/she find bugs and it is decided on this sprint, just repeat this flow with each bug. (You don’t need to work on these changes, but it’ll be easier for you since you developed it.)
+* At this point the TL has given the green light on your changes and has merged them into the codebase.
+* Optionally, **you may test your changes into the CI environment.** This is recommended in the case of big changes or complex code. In the case of doubt, talk with your TL.
+* **Give the green light to your TL** so that he/she moves everything to the QA bucket.
+* The Quality Analyst will test your changes. If he/she find bugs and it is decided on this sprint, just repeat this flow with each bug. (You don’t need to work on these changes, but it’ll be easier for you since you developed it.)
 
 #### General advice
 
