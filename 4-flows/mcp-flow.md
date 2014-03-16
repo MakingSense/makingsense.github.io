@@ -3,7 +3,7 @@ layout: default
 title: Flows and Branching models
 ---
 
-### MSF Developer’s Workflow
+### MCP Developer’s Workflow
 
 _A story of too much work and no play, which makes Jack a dull boy._
 
