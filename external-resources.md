@@ -48,9 +48,16 @@ title: External Resources
     * A guided tour that walks through the fundamentals of Git.
 * [Capacitación en Git (Spanish)](http://prezi.com/hzbsgv84xl9u/capacitacion-en-git/)
     * Introduction, basic concepts, practical examples
+* [Git - The simple guide](http://rogerdudler.github.io/git-guide/)
+    * Una guía sencilla para comenzar con git. sin complicaciones ;)
+    * [Also available in spanish](http://rogerdudler.github.io/git-guide/index.es.html)
 
 ### Videos
 
+* [Linus Torvald's TED talk on Git](http://lt.mydplr.com/cf337123a4f1cc7080cfec53c508d400-5854522d3cf67aafac284294c62c46c4)
+* Pluralsight Courses
+    * [Git Fundamentals (Spanish CC available)](http://lt.mydplr.com/aadcf4212244b0e315af715f51f21ad9-5854522d3cf67aafac284294c62c46c4)
+    * [Git for Visual Studio Developers](http://lt.mydplr.com/4c44afc3620da6d026b03cfb3adb59ac-5854522d3cf67aafac284294c62c46c4)
 * [Git Basics](http://git-scm.com/videos)
     * [What is Version Control? (05:59)](http://git-scm.com/video/what-is-version-control)
     * [What is Git? (08:15)](http://git-scm.com/video/what-is-git)
@@ -83,5 +90,3 @@ title: External Resources
     * Schematic with master + develop + feature branches / hotfixes branches, when finished each is merged onto the others with merge no-ff (master, develop are the ones that get pushed)
 * [GitHub-flow](http://scottchacon.com/2011/08/31/github-flow.html)
     * Branches per feature + master, pull requests & merge after code review
-* [Developer’s workflow (copy for MakingSense)](https://docs.google.com/a/getcs.com/document/d/1F4oj9MlqJQfwNmBL0pVOY5tk2u6Rl9moUfg0YsyCQ08/edit?usp=sharing)
-    * Description of the process: JIRA (project management) + GitHub workflow, some tips
