@@ -40,8 +40,15 @@ title: External Resources
 * [Resources / how to guides](http://stackoverflow.com/q/315911/147507)
     * For future reference
 
+### Glossary
+
+* [GitHub Glossary](https://help.github.com/articles/github-glossary)
+* [Official Git Glossary](https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html)
+
 ### Tutorial
 
+* [GitHub Guides](http://guides.github.com/)
+    * A site from GitHub that focuses on workflows and higher-level Git and GitHub concepts.
 * [Introductory Reference & Tutorial](http://gitref.org/)
     * This introductory walkthrough acts as a nice tutorial
 * [Git Immersion](http://gitimmersion.com/)
@@ -83,6 +90,7 @@ title: External Resources
     * [GitHub Issues (02:27)](http://vimeo.com/88472083)
         * This is a quick tour of GitHub Issues tool.
 * [More GitHub official videos](http://vimeo.com/github)
+* [GitHub Guides Youtube channel](https://www.youtube.com/user/GitHubGuides)
 
 ### Flows
 
