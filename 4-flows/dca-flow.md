@@ -5,8 +5,6 @@ title: Flows and Branching models
 
 ### DCA Flow
 
-<!-- I am not sure to include the complete Project and Client name here -->
-
 **_based on [git-flow]_**
 
 In this project we have time boxed sprints and previously defined release dates. 
@@ -15,7 +13,9 @@ unit test coverage and neither a large automated test coverage yet. So, right
 now, in order to ensure quality we need a relatively large time of manual test 
 over a stable environment. 
 
-This is basically our workflow:
+For these reasons, we cannot follow the git-flow as it is, so we decided to change the meaning of `master` branch to represent all code that have passed all QA stages and it supposed that it is really ready to go to production. Also, we decided to change _release branches_ for _version branches_ which represent the output of a sprint and could be potentially deployable to production. So stabilization stage is done on these _version branches_, when it is stable, it is merged to `master`, when it is deployed to production it is tagged.
+
+This is basically our workflow (without think about version control):
 
 ![Sprint template](dca-sprint.png)
 
@@ -41,9 +41,7 @@ Our "central" repository path is https://github.com/MakingSense/dca (it does not
 exist yet), we will call it `upstream` (and suggest to call it upstream in your 
 local clones too).
 
-In the upstream repository we maintain: `develop` branch, `stabilization` branch, 
-_releases_ branches, _hotfixes_ branches, _releases_ tags and optionally 
-_features_ branches.
+In the upstream repository we maintain: `develop` branch, _versions_ branches, _hotfixes_ branches, _releases_ tags and optionally _features_ branches.
 
 #### Personal forks
 
@@ -59,6 +57,8 @@ that case we suggest to call them as the owner's username.
 **Note:** It is allowed to _rewrite the history_ in personal branches, but try 
 to not do it on branches with _pull request_ associated or shared with other 
 users.
+
+**Note II:** If you do not like to use a personal fork, no problem, you can call `origin` to https://github.com/MakingSense/dca and create your branches there. _If it gets dirty, we will ban this possibility in a future_.
 
 #### Our git flow
 
@@ -91,39 +91,29 @@ Sprint `N` starts. In the planning we choose a lot features to implement!
     * Some other developers in the team do a quick code review.
     * After someone else has reviewed and signed off on the feature it could be 
       merged to `upstream/develop` (see [working with pull requests]). 
-       * If something is wrong, discussion can continue in the _pull request_ and fixes can be push to the _feature_ branch . When all issues are fixed it could be 
-         merged
+        * If something is wrong, discussion can continue in the _pull request_ and fixes can be push to the _feature_ branch . When all issues are fixed it could be merged
 
 4. Sprint finishes
 
-    * `upstream/develop` branch is merged to  `upstream/stabilization` branch (see 
-      [merge remote branches]). It is a modification over [git-flow].
+    * `upstream/develop` branch is merged to a new _version branch_ in `upstream` repository (see 
+      [merge remote branches]).
+    * Preparation to production is done in the new _version branch_ updating meta-data like version number, build dates, etc.
     * Sprint `N+1` starts with a planning.
 
-5. Issues in `stabilization` branch
+5. QA in _version branch_ branch
 
-    * The client and QA team detect issues in _stabilization_ branch, they are 
-      prioritized and some of them cold be included in current sprint `N+1`
-    * In order to fix them, our developer creates a new branch, the steps are 
-      like in points `1`, `2` and `3` but based on `stabilization` branch in 
-	  place of `develop`.
-    * `stabilization` branch is fairly often merged to `develop`.
+    * When the client and QA team detect issues in _version branch_, they are prioritized and some of them cold be included in current sprint `N+1`
+    * In order to fix them, our developer creates a new branch, the steps are like in points `1`, `2` and `3` but based on _version branch_ branch in place of `develop`.
+    * _version branch_ is fairly often merged to `develop`.
+    * When QA stage finish, _version branch_ is merged to _master_.
 
-6. Release is closer
+6. The release!
 
-    * Someone creates a new branch based on `stabilization` to prepare production 
-      release, do minor bug fixes and preparing meta-data like version number, 
-	  build dates, etc.
-    * When it is done, is merged to _master_ branch, tagged with the version 
-      number and deployed to production immediately.
-    * Of course, the changes and fixes are fairly often merged to `develop` and 
-      `stabilization` branches.
+    * The release date day has arrived, code on `master` is tagged and deployed to production environment.
 
 7. Hurry! A critical issue in Production!
 
-    * If something goes wrong in production, the process to fix it is similar to 
-      steps `1`, `2` and `3` but based on a new _hotfix_ branch based on `upstream/master`
-	  branch.
+    * If something goes wrong in production, the process to fix it is similar to steps `5` but in place of using a _version branch_, it is done in a new _hotfix branch_ based on `upstream/master` or in the last release tag.
 
 	  
 
