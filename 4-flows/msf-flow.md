@@ -86,7 +86,7 @@ _A story of too much work and no play, which makes Jack a dull boy._
 * At this point the TL has given the green light on your changes and has merged them into the codebase.
 * Optionally, **you may test your changes into the CI environment.** This is recommended in the case of big changes or complex code. In the case of doubt, talk with your TL.
 * **Give the green light to your TL** so that he/she moves everything to the QA bucket.
-* The Quality Analyst will test your changes. If he/she find bugs and it is decided on this sprint, just repeat this flow with each bug. (You don’t need to work on these changes, but it’ll be easier for you since you developed it.)
+* The Quality Analyst will test your changes. If he/she find bugs and it is decided on this sprint, just repeat this flow with each bug (You don’t need to work on these changes, but it’ll be easier for you since you developed it). Discuss with your project lead if this is the right moment to work on this, or if these items need to be scoped for future sprints.
 
 #### General advice
 
