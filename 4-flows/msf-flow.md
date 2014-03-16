@@ -39,7 +39,7 @@ _A story of too much work and no play, which makes Jack a dull boy._
         * Examples:
             * `fix/20140401/nfranco-mcp-512-improve-user-workflow`
             * `feature/20131225/mravinale-christmas-module`
-            * `enhancement/20140201/ezequiel12-`
+            * `enhancement/20140201/ezequiel12-mobile-style-support`
     * `git checkout -b <branch-name>`
 * **Focus on each task at a time** and work with it until you’re done.
 * **Make sure to commit often**, hopefully each time that you have got a working change.
