@@ -76,24 +76,16 @@ title: External Resources
     * [Get Going with Git (04:26)](http://git-scm.com/video/get-going)
     * [Quick Wins with Git (05:06)](http://git-scm.com/video/quick-wins)
 * GitHub & Git foundations
-   * [Setup (01:50)](http://vimeo.com/88271920)
-      * Let us help you discover the installation options for both GitHub and Git.
-   * [Introduction (03:40)](http://vimeo.com/88271921)
-      * Git and GitHub features presentation
-   * [Config (02:23)](http://vimeo.com/88276099)
-      * Command line common settings
-   * [Init (02:02)](http://vimeo.com/88313612)
-      * Learn how to create a new Git repository from the command line and on github.com
-   * [Diff (03:09)](http://vimeo.com/88315553)
-      * Easily decipher file changes with the diff command.
+   * [Setup (01:50)](http://vimeo.com/88271920) Let us help you discover the installation options for both GitHub and Git.
+   * [Introduction (03:40)](http://vimeo.com/88271921) Git and GitHub features presentation
+   * [Config (02:23)](http://vimeo.com/88276099) Command line common settings
+   * [Init (02:02)](http://vimeo.com/88313612) Learn how to create a new Git repository from the command line and on github.com
+   * [Diff (03:09)](http://vimeo.com/88315553) Easily decipher file changes with the diff command.
 * GitHub features quick look
-   * [GitHub Notifications (03:45)](http://vimeo.com/88471359)
-      * This is a quick tour of GitHub Notifications tool.
-   * [Collaboration with Git and GitHub (06:33)](http://vimeo.com/88472080)
-      * Forks, Online editor, Pull request, and Official GitHub clients
+   * [GitHub Notifications (03:45)](http://vimeo.com/88471359) This is a quick tour of GitHub Notifications tool.
+   * [Collaboration with Git and GitHub (06:33)](http://vimeo.com/88472080) Forks, Online editor, Pull request, and Official GitHub clients
    * [GitHub for Windows (01:03)](http://vimeo.com/88472081)
-   * [GitHub Issues (02:27)](http://vimeo.com/88472083)
-      * This is a quick tour of GitHub Issues tool.
+   * [GitHub Issues (02:27)](http://vimeo.com/88472083) This is a quick tour of GitHub Issues tool.
 * [More GitHub official videos](http://vimeo.com/github)
 * [GitHub Guides Youtube channel](https://www.youtube.com/user/GitHubGuides)
 * [VAN ALT.NET Hispano (Spanish)](http://www.altnethispano.org/wiki/van-2010-04-10-git.ashx)
