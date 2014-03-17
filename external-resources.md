@@ -30,7 +30,7 @@ title: External Resources
     * [Also in Spanish](http://git-scm.com/book/es).
 * [Git Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/index.html)
     * Step by step explanations of every operation and why they are useful in real-life scenarios
-* [Matías Beckerle's collection](http://lt.mydplr.com/71ec62a61d047f3939b72e64ca3483c5-5854522d3cf67aafac284294c62c46c4)
+* [Matias Beckerle's collection](http://lt.mydplr.com/71ec62a61d047f3939b72e64ca3483c5-5854522d3cf67aafac284294c62c46c4)
 
 ### Reference
 
@@ -53,11 +53,11 @@ title: External Resources
     * This introductory walkthrough acts as a nice tutorial
 * [Git Immersion](http://gitimmersion.com/)
     * A guided tour that walks through the fundamentals of Git.
-* [Capacitación en Git (Spanish)](http://prezi.com/hzbsgv84xl9u/capacitacion-en-git/)
+* [Capacitacion en Git (Spanish)](http://prezi.com/hzbsgv84xl9u/capacitacion-en-git/)
     * Introduction, basic concepts, practical examples
 * [Git - The simple guide](http://rogerdudler.github.io/git-guide/)
-    * Una guía sencilla para comenzar con git. sin complicaciones ;)
-    * [Also available in spanish](http://rogerdudler.github.io/git-guide/index.es.html)
+    * Just a simple guide for getting started with git. no deep shit ;)
+    * [Also available in Spanish](http://rogerdudler.github.io/git-guide/index.es.html)
 
 ### Videos
 
