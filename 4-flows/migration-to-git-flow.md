@@ -48,3 +48,4 @@ Another alternative to collaborate, is to made the changes directly in the brows
 [commit changes]: /migration-to-git/3-working-with-git/commit-changes.html
 [push to a remote repo]: /migration-to-git/3-working-with-git/push-to-a-remote-repo.html
 [creating a pull request]: /migration-to-git/3-working-with-git/creating-a-pull-request.html
+[working with pull requests]: /migration-to-git/3-working-with-git/working-with-pull-requests.html
