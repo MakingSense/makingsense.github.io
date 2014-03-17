@@ -5,7 +5,12 @@ title: External Resources
 
 ### Enlightenment and Concepts
 
+* [The Thing About Git](http://tomayko.com/writings/the-thing-about-git)
+    *  "The important thing to understand here is that your uncle is crazy. And so is Git."
 * [Think Like (a) Git](http://think-like-a-git.net/)
+    * "My goal with this site is to help you, Dear Reader, understand what those smug bastards are talking about."
+* [The Git Parable](http://tom.preston-werner.com/2009/05/19/the-git-parable.html)
+    * "Until you understand the concepts upon which Git is built, you’ll feel like a stranger in a foreign land."
 * [Understanding Git Conceptually](http://www.sbf5.com/~cduan/technical/git/)
     * Introduction to concepts (commits, pointers, branches, graphs)
 * [Git from the bottom up](http://ftp.newartisans.com/pub/git.from.bottom.up.pdf)
@@ -91,6 +96,7 @@ title: External Resources
         * This is a quick tour of GitHub Issues tool.
 * [More GitHub official videos](http://vimeo.com/github)
 * [GitHub Guides Youtube channel](https://www.youtube.com/user/GitHubGuides)
+* [VAN ALT.NET Hispano (Spanish)](http://www.altnethispano.org/wiki/van-2010-04-10-git.ashx)
 
 ### Flows
 
@@ -98,3 +104,9 @@ title: External Resources
     * Schematic with master + develop + feature branches / hotfixes branches, when finished each is merged onto the others with merge no-ff (master, develop are the ones that get pushed)
 * [GitHub-flow](http://scottchacon.com/2011/08/31/github-flow.html)
     * Branches per feature + master, pull requests & merge after code review
+* [gitworkflows Manual Page](https://www.kernel.org/pub/software/scm/git/docs/gitworkflows.html)
+    * An overview of recommended workflows with git
+* [A Git Workflow for Agile Teams](http://reinh.com/blog/2009/03/02/a-git-workflow-for-agile-teams.html)
+    * "AN EFFICIENT WORKFLOW for developers in Agile teams that handles features and bugs while keeping a clean and sane history."
+* [Git Management](http://web.archive.org/web/20120127004753/http://kerneltrap.org/Linux/Git_Management)
+   * Linus Torvalds discussion about git workflows and rebasing topic.
