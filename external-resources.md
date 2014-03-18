@@ -6,7 +6,7 @@ title: External Resources
 ### Propaganda
 
 * [Why Git is Better than X](http://thkoch2001.github.io/whygitisbetter/)
-    * [Also in spanish](http://web.archive.org/web/20120501025807/http://es.whygitisbetterthanx.com/)
+    * [Also in Spanish](http://web.archive.org/web/20120501025807/http://es.whygitisbetterthanx.com/)
     * [And sources](https://github.com/schacon/whygitisbetter)
 
 ### Enlightenment and Concepts
