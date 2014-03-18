@@ -3,6 +3,12 @@ layout: default
 title: External Resources
 ---
 
+### Propaganda
+
+* [Why Git is Better than X](http://thkoch2001.github.io/whygitisbetter/)
+    * [Also in spanish](http://web.archive.org/web/20120501025807/http://es.whygitisbetterthanx.com/)
+    * [And sources](https://github.com/schacon/whygitisbetter)
+
 ### Enlightenment and Concepts
 
 * [The Thing About Git](http://tomayko.com/writings/the-thing-about-git)
@@ -27,6 +33,10 @@ title: External Resources
 -->
 * [LearnGitBranching](http://pcottle.github.io/learnGitBranching/)
     * Application designed to help beginners grasp the powerful concepts behind branching when working with git.
+
+### Conventions and Good Practices
+
+* [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
 ### Books
 
