@@ -38,7 +38,7 @@ To have your own fork is also very useful if you want preview your changes, if y
 
 Another alternative to collaborate, is to made the changes directly in the browser. You can find useful information in the articles [GitHub Flow in the Browser](https://github.com/blog/1557-github-flow-in-the-browser) and [Web-flow editing from Pull Requests](https://github.com/blog/1738-web-flow-editing-from-pull-requests).
 
-
+#### WORK IN PROGRESS
 
 [clone a remote repo]: /migration-to-git/3-working-with-git/clone-remote-repo.html
 [fork a remote repo]: /migration-to-git/3-working-with-git/fork-a-repo.html
