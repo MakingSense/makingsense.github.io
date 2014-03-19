@@ -17,3 +17,7 @@ The source of this site is [hosted on GitHub](https://github.com/MakingSense/mig
 4. [Flows and Branching models](4-flows)
 5. [Git is for our non-technical people too](5-non-technical)
 6. [External Resources](external-resources.html)
+
+### Personal Content
+
+* [Apología del aprendizaje de Git (Spanish)](/migration-to-git/andresmoschini/learning-git-apology-es.html)
