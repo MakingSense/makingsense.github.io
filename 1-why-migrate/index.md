@@ -68,3 +68,7 @@ TODO:
     * Git
     * GitHub
 -->
+
+---
+
+Some text extracted from <http://agiloper.wordpress.com/2012/03/21/benefits-of-git-for-a-developer/>
