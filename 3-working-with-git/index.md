@@ -28,7 +28,7 @@ support for openssh.
 
 
 [commit conventions]: /migration-to-git/3-working-with-git/commit-conventions.html
-[dealing with line endings]: /migration-to-git/3-working-with-git/dealing-with line-endings.html
+[dealing with line endings]: /migration-to-git/3-working-with-git/dealing-with-line-endings.html
 [Repo Boilerplate]: /migration-to-git/3-working-with-git/repo-boilerplate.html
 
 ### Operations
