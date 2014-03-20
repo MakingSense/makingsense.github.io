@@ -35,6 +35,8 @@ And push it to our GitHub repository `(6)` (see [push to a remote repo]).
 
 Congrats! Your repo is done to add your project files.
 
+It is not related to repository preparation, but at this point it could also be useful to take a look at our recommendations on [.gitconfig-file].
+
 
 
 [clone a remote repo]: /migration-to-git/3-working-with-git/clone-remote-repo.html
@@ -42,3 +44,4 @@ Congrats! Your repo is done to add your project files.
 [our default gitattributes]: https://github.com/MakingSense/migration-to-git/tree/gh-pages/3-working-with-git/examples/.gitattributes
 [commit changes]: /migration-to-git/3-working-with-git/commit-changes.html
 [push to a remote repo]: /migration-to-git/3-working-with-git/push-to-a-remote-repo.html
+[.gitconfig-file]: /migration-to-git/3-working-with-git/gitconfig-file.html
