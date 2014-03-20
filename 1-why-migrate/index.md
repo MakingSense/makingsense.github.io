@@ -5,17 +5,6 @@ title: Why migrate to Git
 
 <iframe src="http://prezi.com/embed/o3oij020l_oc/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;features=undefined&amp;disabled_features=undefined" width="550" height="400" frameBorder="0">Prezi iframe (this content is required for markdown parsing)</iframe>
 
-It will include information about:
-
-* Benefits for individuals
-* Corporative reasons
-* Benefits for Making Sense
-* Basic introduction
-    * What is a version control system
-	* centralized vs distributed
-	* Git
-	* GitHub
-
 ### Benefits for individuals
 There are plenty of articles on the Internet about the benefits of using Git. Here we summarize some of the most important items for individuals:
 
@@ -68,3 +57,14 @@ Aside from making individuals life easier, Git has a number of other benefits fo
 * Not just for code! -- Git is great for all sorts of projects, not just hacking code. For example, written content.
 
 In summary, source code management in Git it's secure, fast, and enterprise grade, allowing to create and manage repositories, set up fine-grained permissions, and collaborate on code – all with the flexibility of the own company servers.
+
+
+<!--
+TODO:
+
+* Basic introduction
+    * What is a version control system
+    * centralized vs distributed
+    * Git
+    * GitHub
+-->
