@@ -57,6 +57,10 @@ line tool and Git bash.
 * It is not so quick as command line.
 * Difficult to understand if you do not want to understand Git internal behaviour.
 
+#### Git Extensions Issues
+
+* See the following [link](/migration-to-git/3-working-with-git/git-extension-issues.html) about issues.
+
 ### Atlassian SourceTree
 
 ### Visual Studio
