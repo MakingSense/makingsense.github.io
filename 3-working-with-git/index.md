@@ -26,6 +26,9 @@ support for openssh.
 * [dealing with line endings]
 * [Repo Boilerplate]
 
+### Tips and Tricks
+
+* [Remove a file in all branch commits](trick-remove-file-in-all-commits.html)
 
 [commit conventions]: /migration-to-git/3-working-with-git/commit-conventions.html
 [dealing with line endings]: /migration-to-git/3-working-with-git/dealing-with line-endings.html
