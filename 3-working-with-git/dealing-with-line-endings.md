@@ -11,9 +11,16 @@ Our recommendation is to keep line ending by default by this configuration in `g
 
     [core]
     autocrlf = false
+    safecrlf = false
+
+The property `safecrlf = false` is to avoid warning errors converting line endings in the files that we choose to convert automatically.
+
 
 And allow to convert only certain kind of files by `gitattributes` file ([see more](gitattributes-file.html)):
 
+    # Set default behaviour, in case users don't have core.autocrlf unset.
+    * -text
+    
     # These files are text and should be normalized (convert crlf =&gt; lf)
     *.cs      text diff=csharp
     *.xaml    text
