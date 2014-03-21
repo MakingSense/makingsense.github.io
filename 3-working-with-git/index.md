@@ -45,6 +45,7 @@ support for openssh.
 * [creating a pull request]
 * [working with pull requests]
 * [merge remote branches]
+* [solve merge and rebase conflicts]
 
 
 [fork a remote repo]: /migration-to-git/3-working-with-git/fork-a-repo.html
@@ -57,6 +58,7 @@ support for openssh.
 [creating a pull request]: /migration-to-git/3-working-with-git/creating-a-pull-request.html
 [working with pull requests]: /migration-to-git/3-working-with-git/working-with-pull-requests.html
 [merge remote branches]: /migration-to-git/3-working-with-git/merge-remote-branches.html
+[solve merge and rebase conflicts]: /migration-to-git/3-working-with-git/merge-remote-branches.html
 
 ### Configuration files
 
