@@ -63,6 +63,13 @@ line tool and Git bash.
 
 ### Atlassian SourceTree
 
+#### Atlassian SourceTree Pros
+
+* It notifies you about pending pull (and quantity of commits) on remote repo, and respective details about them.
+* It displays some big "buttons" to execute different commands on top bar and respective name for this commands (this is a good point for git beginners)
+
+![Atlassian SourceTree Pros](git-clients-atlassian-sourcetree-pros.png)
+
 ### Visual Studio
 
 ### GitHub for Windows
