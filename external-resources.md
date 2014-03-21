@@ -45,7 +45,6 @@ title: External Resources
     * [Also in Spanish](http://git-scm.com/book/es).
 * [Git Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/index.html)
     * Step by step explanations of every operation and why they are useful in real-life scenarios
-* [Matias Beckerle's collection](http://lt.mydplr.com/71ec62a61d047f3939b72e64ca3483c5-5854522d3cf67aafac284294c62c46c4)
 
 ### Reference
 
