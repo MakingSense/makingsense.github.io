@@ -9,7 +9,7 @@ Git Extensions has an issue when you want to do the Push to a remote repo where 
 
 ![Push Issue](git-push-issue.png)
 
-To solve this, should be modified the `.gitconfig` file located in "C:\Users\[USERNAME]\.gitconfig". This file contains this structure:
+To solve this, should be modified the `.gitconfig` file located in `C:\Users\[USERNAME]\.gitconfig`. This file contains this structure:
 
     [merge]
         tool = kdiff3
@@ -29,7 +29,8 @@ To solve this, should be modified the `.gitconfig` file located in "C:\Users\[US
         email = [your email]
 		
 * The `[credential]` tag should be modified by: 
-[credential]
- helper = !\"C:/Program Files/GitExtensions/GitCredentialWinStore/git-credential-winstore.exe\"
+
+    [credential]
+        helper = !\"C:/Program Files/GitExtensions/GitCredentialWinStore/git-credential-winstore.exe\"
 	
 	
