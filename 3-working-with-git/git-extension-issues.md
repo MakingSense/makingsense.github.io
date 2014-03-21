@@ -28,7 +28,7 @@ To solve this, should be modified the `.gitconfig` file located in `C:\Users\[US
         name = [your username]
         email = [your email]
 		
-* The `[credential]` tag should be modified by: 
+The `[credential]` tag should be modified by: 
 
     [credential]
         helper = !\"C:/Program Files/GitExtensions/GitCredentialWinStore/git-credential-winstore.exe\"
