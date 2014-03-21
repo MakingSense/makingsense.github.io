@@ -68,6 +68,12 @@ support for openssh.
 [.gitattributes-file]: /migration-to-git/3-working-with-git/gitattributes-file.html
 [.gitconfig-file]: /migration-to-git/3-working-with-git/gitconfig-file.html
 
+### Common Problems
+
+* [Git Extensions issues]
+
+[Git Extensions issues]: /migration-to-git/3-working-with-git/git-extension-issues.html
+
 ### Git Clients
 
 There are a lot of [Git GUI clients](git-clients.html). In general, we can said 
