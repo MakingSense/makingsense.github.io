@@ -33,4 +33,4 @@ The `[credential]` tag should be modified with:
     [credential]
         helper = !\"C:/Program Files/GitExtensions/GitCredentialWinStore/git-credential-winstore.exe\"
 	
-And after that, bye bye nag screen and welcome peace of mind. :relieved:
+And after that, bye bye nag screen and welcome peace of mind. :)
