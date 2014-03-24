@@ -137,3 +137,38 @@ $ git commit -m 'Merge branch-a'
 
 
 #### Rebase process
+
+To demonstrate Rebase, I will reset the state as before to merge. And then start to rebase `branch-b` on `branch-a`.
+
+```
+$ git checkout branch-b
+$ git rebase branch-a
+```
+
+![Start rebase](solve-conflicts-08-start-rebase.png)
+
+It shows a conflict between `branch-a` and the first commit of `branch-b`
+
+![Fix the first rebase conflict](solve-conflicts-09-rebase-conflict-1.png)
+
+When it is fixed (with notepad in this case), we apply the changes and continue with rebase process.
+
+```
+$ git notepad demo-file.md
+$ git add demo-file.md
+$ git rebase --continue
+```
+
+![Continue after the first reabase conflict](solve-conflicts-10-rebase-conflict-1-continue.png)
+
+![Fix the second conflict](solve-conflicts-11-rebase-conflict-2.png)
+
+In this case there are conflicts between the result of previous state and the second commit of `branch-b`.
+
+![Fix the third conflict](solve-conflicts-12-rebase-conflict-3.png)
+
+And conflicts with the third commit. When all `branch-b` commits are applied, the rebase finish.
+
+![Rebase is done](solve-conflicts-13-rebase-done.png)
+
+You can download this repository with all the and tags the commits in <https://github.com/MakingSense/resolve-conflicts-demo.git>
