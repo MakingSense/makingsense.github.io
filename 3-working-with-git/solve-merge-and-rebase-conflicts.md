@@ -109,6 +109,31 @@ Suppose that we expect the follow content after the merge:
 
 #### Merge process
 
-TODO
+We want to merge `branch-a` into `branch-b`.
+
+```
+$ git checkout branch-b
+$ git merge branch-a
+```
+
+![Start merge](solve-conflicts-04-start-merge.png)
+
+But there are conflicts. So we will edit it with notepad (you can also use your favorite merge tool, I like [p4merge](http://danlimerick.wordpress.com/2011/06/19/git-for-window-tip-use-p4merge-as-mergetool/))
+
+![Resolving conflicts step 1/2](solve-conflicts-05-merge-conflicts-before.png)
+
+![Resolving conflicts step 2/2](solve-conflicts-06-merge-conflicts-after.png)
+
+Notice that the conflicts are all together, and are fixed in only one step.
+
+When the result file is done, we commit the modified file, creating a merge commit with two parents.
+
+```
+$ git add demo-file.md
+$ git commit -m 'Merge branch-a'
+```
+
+![Merge is finished](solve-conflicts-07-finish-merge.png)
+
 
 #### Rebase process
