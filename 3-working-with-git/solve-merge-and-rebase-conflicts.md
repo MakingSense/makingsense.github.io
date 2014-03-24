@@ -167,8 +167,8 @@ In this case there are conflicts between the result of previous state and the se
 
 ![Fix the third conflict](solve-conflicts-12-rebase-conflict-3.png)
 
-And conflicts with the third commit. When all `branch-b` commits are applied, the rebase finish.
+And conflicts with the third commit. When all `branch-b` commits are applied on top of `branch-a`, the rebase finish.
 
 ![Rebase is done](solve-conflicts-13-rebase-done.png)
 
-You can download this repository with all the and tags the commits in <https://github.com/MakingSense/resolve-conflicts-demo.git>
+You can download this repository with all the commits, branches and tags from <https://github.com/MakingSense/resolve-conflicts-demo.git>
