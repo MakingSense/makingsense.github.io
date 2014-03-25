@@ -109,5 +109,7 @@ title: External Resources
     * An overview of recommended workflows with git
 * [A Git Workflow for Agile Teams](http://reinh.com/blog/2009/03/02/a-git-workflow-for-agile-teams.html)
     * "AN EFFICIENT WORKFLOW for developers in Agile teams that handles features and bugs while keeping a clean and sane history."
+* [Production Release Workflow With Git](http://johnwilger.com/blog/2011/01/08/production-release-workflow-with-git/)
+    * "it's an interesting example of how rewrites to shared history (generally considered extremely disruptive) can work quite well as long as the entire team expects them and has the skills to cope with issues when they arise (which is not as often as you might think)."
 * [Git Management](http://web.archive.org/web/20120127004753/http://kerneltrap.org/Linux/Git_Management)
    * Linus Torvalds discussion about git workflows and rebasing topic.
