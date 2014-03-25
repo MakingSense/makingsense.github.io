@@ -18,7 +18,7 @@ Some flows proposed for our projects:
 
 * [migration-to-git Flow](migration-to-git-flow.html) (because it is also important to know how to enhance 
   this documentation)
-* Doppler Flow 
+* [Doppler Flow](doppler-flow.html)
 * Lander Flow 
 * [MCP Flow](mcp-flow.html)
 * [DCA Flow](dca-flow.html)
