@@ -52,7 +52,7 @@ changes since our last commit - there is no un-snapshotted work in our checkout
 For example, below we show an image of the prior and subsequent to execute 
 the statement:
 
-	![New repo form](command-commit.png)
+![New repo form](commit-changes-01-command-commit.png)
 	
 ---
 
