@@ -7,11 +7,11 @@ title: Flows and Branching models
 
 **_based on [git-flow]_**
 
-In this project we have time boxed sprints and previously defined release dates. 
-Also, QA team is not so integrated in development process, there is not a large 
-unit test coverage and neither a large automated test coverage yet. So, right 
-now, in order to ensure quality we need a relatively large time of manual test 
-over a stable environment. 
+In this project we have time boxed sprints and one release for sprint.
+We have two environments for QA Control, the Integration which is for continuous integration and QA which is for regressions and demo.
+When a story is developed or a bug is fixed, the changes made by the developer, are merged into one of our main branches, named `develop`. 
+Our Integration environment is pointing to that branch and it's deployed (manually through Jenkins) with the last changes of `develop` as needed.
+When the sprint finish, we create a branch from `develop` with a release number (release candidate). This branch will be pointed by QA environment and the QA Team will run the regression over it. 
 
 For these reasons, we cannot follow the git-flow as it is, so we decided to change the meaning of `master` branch to represent all code that have passed all QA stages and it supposed that it is really ready to go to production. Also, we decided to change _release branches_ for _version branches_ which represent the output of a sprint and could be potentially deployable to production. So stabilization stage is done on these _version branches_, when it is stable, it is merged to `master`, when it is deployed to production it is tagged.
 
@@ -20,7 +20,7 @@ This is basically our workflow (without think about version control):
 ![Sprint template](dca-sprint.png)
 
 1. In a sprint, DEV team develop a set of features or stories. 
-2. Before integrate each feature, DEV team made a quick pair code review.
+2. Before integrate each feature, DEV team made a collaborative review using the [pull request] of github. 
 3. During the sprint DEV team deploy regularly to INT environment to allow QA 
    team to test there in an relatively unstable environment.
 4. At the end of the sprint, DEV team deploy to QA environment where a demo is 
@@ -126,6 +126,6 @@ Sprint `N` starts. In the planning we choose a lot features to implement!
 [create a new branch]: /migration-to-git/3-working-with-git/create-a-new-branch.html
 [commit changes]: /migration-to-git/3-working-with-git/commit-changes.html
 [push to a remote repo]: /migration-to-git/3-working-with-git/push-to-a-remote-repo.html
-[creating a pull request]: /migration-to-git/3-working-with-git/creating-a-pull-request.html
+[creating a pull request][pull request]: /migration-to-git/3-working-with-git/creating-a-pull-request.html
 [working with pull requests]: /migration-to-git/3-working-with-git/working-with-pull-requests.html
 [merge remote branches]: /migration-to-git/3-working-with-git/merge-remote-branches.html
