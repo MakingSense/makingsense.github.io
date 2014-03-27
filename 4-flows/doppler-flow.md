@@ -79,17 +79,16 @@ Sprint `N` starts. In the planning we choose a lot features to implement!
     * Some other developers in the team do a quick code review.
     * After someone else has reviewed and signed off on the feature it could be 
       merged to `upstream/develop` (see [working with pull requests]). 
-        * If something is wrong, discussion can continue in the _pull request_ and fixes can be push to the _feature_ branch . When all issues are fixed it could be merged
+    * If something is wrong, discussion can continue in the _pull request_ and fixes can be push to the _feature_ branch . When all issues are fixed it could be merged
 
 4. Sprint finishes
 
-    * `upstream/develop` branch is merged to a new _version branch_ in `upstream` repository (see 
-      [merge remote branches]).
+    * `upstream/develop` branch is merged to a new _version branch_ in `upstream` repository (see  [merge remote branches]).
     * Preparation to production is done in the new _version branch_
 
 5. QA in _version branch_ branch
 
-    * When the client and QA team detect issues in _version branch_, they are fixed intermediately
+    * When QA team detect issues on regression stage in _version branch_, they are fixed intermediately
     * In order to fix them, our developer creates a new branch, the steps are like in points `1`, `2` and `3` but based on _version branch_ branch in place of `develop`.
     * _version branch_ is fairly often merged to `develop`.
     * When QA stage finish, _version branch_ is merged to _master_.
@@ -102,7 +101,7 @@ Sprint `N` starts. In the planning we choose a lot features to implement!
 
     * If something goes wrong in production, the process to fix it is similar to steps `5` but in place of using a _version branch_, it is done in a new _hotfix branch_ based on `upstream/master` or in the last release tag.
 
-This is 
+In this small [tutorial] you can view a part of this flow applied. 
 
 [git-flow]: http://nvie.com/posts/a-successful-git-branching-model/
 [repo boilerplate]: /migration-to-git/3-working-with-git/repo-boilerplate.html
@@ -118,3 +117,4 @@ This is
 [pull request]: /migration-to-git/3-working-with-git/working-with-pull-requests.html
 [merge remote branches]: /migration-to-git/3-working-with-git/merge-remote-branches.html
 [rewrite the history]: http://git-scm.com/book/ch6-4.html
+[tutorial]: /migration-to-git/4-flows/doppler-flow-example.html
