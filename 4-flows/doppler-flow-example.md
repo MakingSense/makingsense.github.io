@@ -5,7 +5,7 @@ title: Doppler - Flow example
 
 ### Doppler - Flow example
 
-This is a little example of the flow used in Doppler to develop a feature. The git client used is [GitExtensions].
+This is a little example of the [flow used] in Doppler to develop a feature. The git client used is [GitExtensions]. 
 
 If you are new on Doppler you have to follow the next steps:
 
@@ -81,3 +81,4 @@ For this action, you don't need to update your local repository (step 7). Only d
 [Fork the main repository]: http://makingsense.github.io/muigration-to-git/3-working-with-git/fork-a-repo.html
 [Doppler]: https://github.com/MakingSense/Doppler.git
 [Pull Request]: http://makingsense.github.io/migration-to-git/3-working-with-git/creating-a-pull-request.html
+[flow used]: (doppler-flow.html)

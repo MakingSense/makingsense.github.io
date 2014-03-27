@@ -13,8 +13,6 @@ When a story is developed or a bug is fixed, the changes made by the developer, 
 Our Integration environment is pointing to that branch and it's deployed (manually through Jenkins) with the last changes of `develop` as needed.
 When the sprint finish, we create a branch from `develop` with a release number (release candidate). This branch will be pointed by QA environment and the QA Team will run the regression over it. 
 
-For these reasons, we cannot follow the git-flow as it is, so we decided to change the meaning of `master` branch to represent all code that have passed all QA stages and it supposed that it is really ready to go to production. Also, we decided to change _release branches_ for _version branches_ which represent the output of a sprint and could be potentially deployable to production. So stabilization stage is done on these _version branches_, when it is stable, it is merged to `master`, when it is deployed to production it is tagged.
-
 1. In a sprint, DEV team develop a set of features or stories. 
 2. Before integrate each feature, DEV team made a collaborative review using the [pull request] of github. 
 3. During the sprint DEV team deploy regularly to Integration environment to allow QA 
@@ -33,7 +31,7 @@ For these reasons, we cannot follow the git-flow as it is, so we decided to chan
 
 Our "central" repository path is https://github.com/MakingSense/Doppler, we will call it `upstream` (and suggest to call it upstream in your local clones too).
 
-In the upstream repository we maintain: `develop` branch, _versions_ branches, _hotfixes_ branches, _releases_ tags and optionally _features_ branches.
+In the upstream repository we maintain: `develop` branch, _releases_ branches, _hotfixes_ branches, _releases_ tags and optionally _features_ branches.
 
 #### Personal forks
 
@@ -83,15 +81,15 @@ Sprint `N` starts. In the planning we choose a lot features to implement!
 
 4. Sprint finishes
 
-    * `upstream/develop` branch is merged to a new _version branch_ in `upstream` repository (see  [merge remote branches]).
-    * Preparation to production is done in the new _version branch_
+    * `upstream/develop` branch is merged to a new release branch_ in `upstream` repository (see  [merge remote branches]).
+    * Preparation to production is done in the new _release branch_
 
-5. QA in _version branch_ branch
+5. QA in _release branch_ branch
 
-    * When QA team detect issues on regression stage in _version branch_, they are fixed intermediately
-    * In order to fix them, our developer creates a new branch, the steps are like in points `1`, `2` and `3` but based on _version branch_ branch in place of `develop`.
-    * _version branch_ is fairly often merged to `develop`.
-    * When QA stage finish, _version branch_ is merged to _master_.
+    * When QA team detect issues on regression stage in _release branch_, they are fixed intermediately
+    * In order to fix them, our developer creates a new branch, the steps are like in points `1`, `2` and `3` but based on _release branch_ branch in place of `develop`.
+    * _release branch_ is fairly often merged to `develop`.
+    * When QA stage finish, _release branch_ is merged to _master_.
 
 6. The release!
 
@@ -99,7 +97,7 @@ Sprint `N` starts. In the planning we choose a lot features to implement!
 
 7. Hurry! A critical issue in Production!
 
-    * If something goes wrong in production, the process to fix it is similar to steps `5` but in place of using a _version branch_, it is done in a new _hotfix branch_ based on `upstream/master` or in the last release tag.
+    * If something goes wrong in production, the process to fix it is similar to steps `5` but in place of using a _release branch_, it is done in a new _hotfix branch_ based on `upstream/master` or in the last release tag.
 
 In this small [tutorial] you can view a part of this flow applied. 
 
