@@ -49,6 +49,11 @@ changes since our last commit - there is no un-snapshotted work in our checkout
 	# On branch master
     nothing to commit (working directory clean)
 
+For example, below we show an image of the prior and subsequent to execute 
+the statement:
+
+![New repo form](commit-changes-01-command-commit.png)
+	
 ---
 
 Some text extracted from <http://gitref.org/basic/> ([CC BY 3.0](https://github.com/git/git-reference/blob/gh-pages/LICENSE.md))
