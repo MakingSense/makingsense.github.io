@@ -118,14 +118,14 @@ Sprint `N` starts. In the planning we choose a lot features to implement!
 	  
 
 [git-flow]: http://nvie.com/posts/a-successful-git-branching-model/
-[repo boilerplate]: /migration-to-git/3-working-with-git/repo-boilerplate.html
-[clone a remote repo]: /migration-to-git/3-working-with-git/clone-remote-repo.html
-[fork a remote repo]: /migration-to-git/3-working-with-git/fork-a-repo.html
-[configure remotes]: /migration-to-git/3-working-with-git/configure-remotes.html
-[fetch remotes]: /migration-to-git/3-working-with-git/fetch-remotes.html
-[create a new branch]: /migration-to-git/3-working-with-git/create-a-new-branch.html
-[commit changes]: /migration-to-git/3-working-with-git/commit-changes.html
-[push to a remote repo]: /migration-to-git/3-working-with-git/push-to-a-remote-repo.html
-[creating a pull request]: /migration-to-git/3-working-with-git/creating-a-pull-request.html
-[working with pull requests]: /migration-to-git/3-working-with-git/working-with-pull-requests.html
-[merge remote branches]: /migration-to-git/3-working-with-git/merge-remote-branches.html
+[repo boilerplate]: {{ site.github.url }}/migration-to-git/3-working-with-git/repo-boilerplate.html
+[clone a remote repo]: {{ site.github.url }}/migration-to-git/3-working-with-git/clone-remote-repo.html
+[fork a remote repo]: {{ site.github.url }}/migration-to-git/3-working-with-git/fork-a-repo.html
+[configure remotes]: {{ site.github.url }}/migration-to-git/3-working-with-git/configure-remotes.html
+[fetch remotes]: {{ site.github.url }}/migration-to-git/3-working-with-git/fetch-remotes.html
+[create a new branch]: {{ site.github.url }}/migration-to-git/3-working-with-git/create-a-new-branch.html
+[commit changes]: {{ site.github.url }}/migration-to-git/3-working-with-git/commit-changes.html
+[push to a remote repo]: {{ site.github.url }}/migration-to-git/3-working-with-git/push-to-a-remote-repo.html
+[creating a pull request]: {{ site.github.url }}/migration-to-git/3-working-with-git/creating-a-pull-request.html
+[working with pull requests]: {{ site.github.url }}/migration-to-git/3-working-with-git/working-with-pull-requests.html
+[merge remote branches]: {{ site.github.url }}/migration-to-git/3-working-with-git/merge-remote-branches.html

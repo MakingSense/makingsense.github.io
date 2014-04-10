@@ -23,9 +23,9 @@ The repository is created at GitHub.
 
 We will clone it locally `(1)` in order to our files (see [clone a remote repo]).
 
-We download [our default gitignore] `(2)` by the raw file GitHub URL: <https://raw.github.com/MakingSense/migration-to-git/gh-pages/3-working-with-git/examples/.gitignore> (In the screenshot we are using `wget` command which is not included on Windows by default).
+We download [our default gitignore] `(2)` by the raw file GitHub URL: <https://raw.githubusercontent.com/{{ site.github.repository_nwo }}/master/migration-to-git/3-working-with-git/examples/.gitignore> (In the screenshot we are using `wget` command which is not included on Windows by default).
 
-And also [our default gitattributes] `(3)`. The raw file GitHub URL is: <https://raw.github.com/MakingSense/migration-to-git/gh-pages/3-working-with-git/examples/.gitattributes>
+And also [our default gitattributes] `(3)`. The raw file GitHub URL is: <https://raw.githubusercontent.com/{{ site.github.repository_nwo }}/master/migration-to-git/3-working-with-git/examples/.gitattributes>
 
 It is ready to commit (see [commit changes]), so we add all files to the index `(4)` and `(5)` commit them.
 
@@ -39,9 +39,9 @@ It is not related to repository preparation, but at this point it could also be 
 
 
 
-[clone a remote repo]: /migration-to-git/3-working-with-git/clone-remote-repo.html
-[our default gitignore]: https://github.com/MakingSense/migration-to-git/tree/gh-pages/3-working-with-git/examples/.gitignore
-[our default gitattributes]: https://github.com/MakingSense/migration-to-git/tree/gh-pages/3-working-with-git/examples/.gitattributes
-[commit changes]: /migration-to-git/3-working-with-git/commit-changes.html
-[push to a remote repo]: /migration-to-git/3-working-with-git/push-to-a-remote-repo.html
-[.gitconfig-file]: /migration-to-git/3-working-with-git/gitconfig-file.html
+[clone a remote repo]: {{ site.github.url }}/migration-to-git/3-working-with-git/clone-remote-repo.html
+[our default gitignore]: {{ site.github.repository_url }}/blob/master/migration-to-git/3-working-with-git/examples/.gitignore
+[our default gitattributes]: {{ site.github.repository_url }}/blob/master/migration-to-git/3-working-with-git/examples/.gitattributes
+[commit changes]: {{ site.github.url }}/migration-to-git/3-working-with-git/commit-changes.html
+[push to a remote repo]: {{ site.github.url }}/migration-to-git/3-working-with-git/push-to-a-remote-repo.html
+[.gitconfig-file]: {{ site.github.url }}/migration-to-git/3-working-with-git/gitconfig-file.html

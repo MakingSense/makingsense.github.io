@@ -36,7 +36,7 @@ To be sure that some files (commonly included in the packages) are not touched w
     *.css    -text
     *.less   -text
 
-You can see a `.gitattributes` file  example [in our GitHub repository](https://github.com/MakingSense/migration-to-git/tree/gh-pages/3-working-with-git/examples/.gitattributes).
+You can see a `.gitattributes` file  example [in our GitHub repository]({{ site.github.repository_url }}/blob/master/migration-to-git/3-working-with-git/examples/.gitattributes).
 
 
 ### More information
