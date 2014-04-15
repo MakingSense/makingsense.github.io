@@ -59,7 +59,7 @@ line tool and Git bash.
 
 #### Git Extensions Issues
 
-* See the following [link](/migration-to-git/3-working-with-git/git-extension-issues.html) about issues.
+* See the following [link]({{ site.github.url }}/migration-to-git/3-working-with-git/git-extension-issues.html) about issues.
 
 ### Atlassian SourceTree
 
