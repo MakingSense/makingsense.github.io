@@ -83,6 +83,14 @@ that [Git Extensions]({{ site.github.url }}/migration-to-git/3-working-with-git/
 is a good choice to start because it helps you to understand how Git is working
 internally.
 
+### git-tfs
+
+It is an useful tool when you have to migrate a TFS repository and also when Git and TFS should co-exist.
+
+See [git-tfs readme](https://github.com/git-tfs/git-tfs/#readme) for a complete reference.
+
+* [Clone a TFS repository to GitHub](git-fts-to-github.html)
+* [Using TFS and Git together](git-fts-as-bridge.html)
 
 ---
 
