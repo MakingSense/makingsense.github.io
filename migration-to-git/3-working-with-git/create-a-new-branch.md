@@ -11,10 +11,9 @@ The first step is to checkout the base branch:
 
     git checkout develop 
 	
-Now you can create a new branch based on current that is associated to an 
-specific remote repository/branch:
+Now you can create a new branch based on the current one:
 
-    git checkout edit-mobile-locations --track bartsimpson/edit-mobile-locations
+    git checkout -b edit-mobile-locations
 	
 Since you have been used `checkout` command, your working tree is pointing to 
 the new branch.
