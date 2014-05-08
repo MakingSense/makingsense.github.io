@@ -41,7 +41,7 @@ Is the place where you prepare your changes to commit, a _middle_ between your w
 
 See more details in [the Index].
 
-[the Index]: {{ site.github.url }}/migration-to-git/2-concepts/the-index.html
+[the Index]: /migration-to-git/2-concepts/the-index.html
 
 #### Clone
 

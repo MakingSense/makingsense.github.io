@@ -9,7 +9,7 @@ The idea behind this flow, is to allow quickly create a documentation site with 
 
 #### Base branch
 
-The sources of this site are stored on [GitHub repository]({{ site.github.repository_url }}) (I will call it `upstream`). When something is pushed to the branch `upstream/master`, it is automatically published to [the public site]({{ site.github.url }}) by _GiHub Pages_.
+The sources of this site are stored on [GitHub repository]({{ site.github.repository_url }}) (I will call it `upstream`). When something is pushed to the branch `upstream/master`, it is automatically published to [the public site](/) by _GiHub Pages_.
 
 #### Simple fixes and permissions
 
@@ -40,12 +40,12 @@ Another alternative to collaborate, is to made the changes directly in the brows
 
 
 
-[clone a remote repo]: {{ site.github.url }}/migration-to-git/3-working-with-git/clone-remote-repo.html
-[fork a remote repo]: {{ site.github.url }}/migration-to-git/3-working-with-git/fork-a-repo.html
-[configure remotes]: {{ site.github.url }}/migration-to-git/3-working-with-git/configure-remotes.html
-[fetch remotes]: {{ site.github.url }}/migration-to-git/3-working-with-git/fetch-remotes.html
-[create a new branch]: {{ site.github.url }}/migration-to-git/3-working-with-git/create-a-new-branch.html
-[commit changes]: {{ site.github.url }}/migration-to-git/3-working-with-git/commit-changes.html
-[push to a remote repo]: {{ site.github.url }}/migration-to-git/3-working-with-git/push-to-a-remote-repo.html
-[creating a pull request]: {{ site.github.url }}/migration-to-git/3-working-with-git/creating-a-pull-request.html
-[working with pull requests]: {{ site.github.url }}/migration-to-git/3-working-with-git/working-with-pull-requests.html
+[clone a remote repo]: /migration-to-git/3-working-with-git/clone-remote-repo.html
+[fork a remote repo]: /migration-to-git/3-working-with-git/fork-a-repo.html
+[configure remotes]: /migration-to-git/3-working-with-git/configure-remotes.html
+[fetch remotes]: /migration-to-git/3-working-with-git/fetch-remotes.html
+[create a new branch]: /migration-to-git/3-working-with-git/create-a-new-branch.html
+[commit changes]: /migration-to-git/3-working-with-git/commit-changes.html
+[push to a remote repo]: /migration-to-git/3-working-with-git/push-to-a-remote-repo.html
+[creating a pull request]: /migration-to-git/3-working-with-git/creating-a-pull-request.html
+[working with pull requests]: /migration-to-git/3-working-with-git/working-with-pull-requests.html

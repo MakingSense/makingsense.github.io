@@ -78,7 +78,7 @@ For this action, you don't need to update your local repository (step 7). Only d
 
 [github]: https://www.github.com
 [GitExtensions]: https://code.google.com/p/gitextensions/
-[Fork the main repository]: {{ site.github.url }}/migration-to-git/3-working-with-git/fork-a-repo.html
+[Fork the main repository]: /migration-to-git/3-working-with-git/fork-a-repo.html
 [Doppler]: https://github.com/MakingSense/Doppler.git
-[Pull Request]: {{ site.github.url }}/migration-to-git/3-working-with-git/creating-a-pull-request.html
+[Pull Request]: /migration-to-git/3-working-with-git/creating-a-pull-request.html
 [flow used]: (doppler-flow.html)

@@ -20,4 +20,4 @@ remote branch with a paired local branch to incorporate newly fetch changes.
 
 
 
-[configure remotes]: {{ site.github.url }}/migration-to-git/3-working-with-git/configure-remotes.html
+[configure remotes]: /migration-to-git/3-working-with-git/configure-remotes.html

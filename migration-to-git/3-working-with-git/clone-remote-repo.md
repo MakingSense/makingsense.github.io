@@ -24,6 +24,6 @@ named _origin_. In this local clone you can fetch other people commits and push 
 
 If you want to work with more that one remote repository see [configure remotes].
 
-[configure remotes]: {{ site.github.url }}/migration-to-git/3-working-with-git/configure-remotes.html
+[configure remotes]: /migration-to-git/3-working-with-git/configure-remotes.html
 [remote-url-help]: https://help.github.com/articles/which-remote-url-should-i-use "Which remote URL should I use?"
 

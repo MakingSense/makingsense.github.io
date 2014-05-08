@@ -15,7 +15,7 @@ Only an advertisement, in order to avoid line endings conversion problems we rec
 
 The property `safecrlf = false` is to avoid warning errors converting line endings in the files that we choose to convert automatically.
 
-See more information in [dealing with line endings]({{ site.github.url }}/migration-to-git/3-working-with-git/dealing-with-line-endings.html) 
+See more information in [dealing with line endings](/migration-to-git/3-working-with-git/dealing-with-line-endings.html) 
 
 
 ---

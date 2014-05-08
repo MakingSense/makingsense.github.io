@@ -27,9 +27,9 @@ support for openssh.
 * [Repo Boilerplate]
 
 
-[commit conventions]: {{ site.github.url }}/migration-to-git/3-working-with-git/commit-conventions.html
-[dealing with line endings]: {{ site.github.url }}/migration-to-git/3-working-with-git/dealing-with-line-endings.html
-[Repo Boilerplate]: {{ site.github.url }}/migration-to-git/3-working-with-git/repo-boilerplate.html
+[commit conventions]: /migration-to-git/3-working-with-git/commit-conventions.html
+[dealing with line endings]: /migration-to-git/3-working-with-git/dealing-with-line-endings.html
+[Repo Boilerplate]: /migration-to-git/3-working-with-git/repo-boilerplate.html
 
 ### Operations
 
@@ -48,17 +48,17 @@ support for openssh.
 * [solve merge and rebase conflicts]
 
 
-[fork a remote repo]: {{ site.github.url }}/migration-to-git/3-working-with-git/fork-a-repo.html
-[clone a remote repo]: {{ site.github.url }}/migration-to-git/3-working-with-git/clone-remote-repo.html
-[configure remotes]: {{ site.github.url }}/migration-to-git/3-working-with-git/configure-remotes.html
-[fetch remotes]: {{ site.github.url }}/migration-to-git/3-working-with-git/fetch-remotes.html
-[create a new branch]: {{ site.github.url }}/migration-to-git/3-working-with-git/create-a-new-branch.html
-[commit changes]: {{ site.github.url }}/migration-to-git/3-working-with-git/commit-changes.html
-[push to a remote repo]: {{ site.github.url }}/migration-to-git/3-working-with-git/push-to-a-remote-repo.html
-[creating a pull request]: {{ site.github.url }}/migration-to-git/3-working-with-git/creating-a-pull-request.html
-[working with pull requests]: {{ site.github.url }}/migration-to-git/3-working-with-git/working-with-pull-requests.html
-[merge remote branches]: {{ site.github.url }}/migration-to-git/3-working-with-git/merge-remote-branches.html
-[solve merge and rebase conflicts]: {{ site.github.url }}/migration-to-git/3-working-with-git/solve-merge-and-rebase-conflicts.html
+[fork a remote repo]: /migration-to-git/3-working-with-git/fork-a-repo.html
+[clone a remote repo]: /migration-to-git/3-working-with-git/clone-remote-repo.html
+[configure remotes]: /migration-to-git/3-working-with-git/configure-remotes.html
+[fetch remotes]: /migration-to-git/3-working-with-git/fetch-remotes.html
+[create a new branch]: /migration-to-git/3-working-with-git/create-a-new-branch.html
+[commit changes]: /migration-to-git/3-working-with-git/commit-changes.html
+[push to a remote repo]: /migration-to-git/3-working-with-git/push-to-a-remote-repo.html
+[creating a pull request]: /migration-to-git/3-working-with-git/creating-a-pull-request.html
+[working with pull requests]: /migration-to-git/3-working-with-git/working-with-pull-requests.html
+[merge remote branches]: /migration-to-git/3-working-with-git/merge-remote-branches.html
+[solve merge and rebase conflicts]: /migration-to-git/3-working-with-git/solve-merge-and-rebase-conflicts.html
 
 ### Configuration files
 
@@ -66,20 +66,20 @@ support for openssh.
 * [.gitattributes-file]
 * [.gitconfig-file]
 
-[.gitignore-file]: {{ site.github.url }}/migration-to-git/3-working-with-git/gitignore-file.html
-[.gitattributes-file]: {{ site.github.url }}/migration-to-git/3-working-with-git/gitattributes-file.html
-[.gitconfig-file]: {{ site.github.url }}/migration-to-git/3-working-with-git/gitconfig-file.html
+[.gitignore-file]: /migration-to-git/3-working-with-git/gitignore-file.html
+[.gitattributes-file]: /migration-to-git/3-working-with-git/gitattributes-file.html
+[.gitconfig-file]: /migration-to-git/3-working-with-git/gitconfig-file.html
 
 ### Common Problems
 
 * [Git Extensions issues]
 
-[Git Extensions issues]: {{ site.github.url }}/migration-to-git/3-working-with-git/git-extension-issues.html
+[Git Extensions issues]: /migration-to-git/3-working-with-git/git-extension-issues.html
 
 ### Git Clients
 
 There are a lot of [Git GUI clients](git-clients.html). In general, we can said 
-that [Git Extensions]({{ site.github.url }}/migration-to-git/3-working-with-git/git-clients.html#git_extensions)
+that [Git Extensions](/migration-to-git/3-working-with-git/git-clients.html#git_extensions)
 is a good choice to start because it helps you to understand how Git is working
 internally.
 

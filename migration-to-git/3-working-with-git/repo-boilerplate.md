@@ -39,9 +39,9 @@ It is not related to repository preparation, but at this point it could also be 
 
 
 
-[clone a remote repo]: {{ site.github.url }}/migration-to-git/3-working-with-git/clone-remote-repo.html
+[clone a remote repo]: /migration-to-git/3-working-with-git/clone-remote-repo.html
 [our default gitignore]: {{ site.github.repository_url }}/blob/master/migration-to-git/3-working-with-git/examples/.gitignore
 [our default gitattributes]: {{ site.github.repository_url }}/blob/master/migration-to-git/3-working-with-git/examples/.gitattributes
-[commit changes]: {{ site.github.url }}/migration-to-git/3-working-with-git/commit-changes.html
-[push to a remote repo]: {{ site.github.url }}/migration-to-git/3-working-with-git/push-to-a-remote-repo.html
-[.gitconfig-file]: {{ site.github.url }}/migration-to-git/3-working-with-git/gitconfig-file.html
+[commit changes]: /migration-to-git/3-working-with-git/commit-changes.html
+[push to a remote repo]: /migration-to-git/3-working-with-git/push-to-a-remote-repo.html
+[.gitconfig-file]: /migration-to-git/3-working-with-git/gitconfig-file.html
