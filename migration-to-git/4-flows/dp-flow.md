@@ -113,7 +113,24 @@ Sprint `N` starts. In the planning we choose a lot of nice features to implement
 
 6. The release!
 
-    * The release date day has arrived, `tfs/qa` is merged to a _"tag"_ version branch in TFS and deployed to production environment.
+    * The release date day has arrived, `tfs/qa` is merged to a _"tag"_ version branch in TFS.
+    ```
+    $ git ffetch
+    $ git checkout qa
+    $ git tfs branch $/CompanyName/CentralAdministration/tags/v1.30.0 tag-v1.30.1
+    ```
+    * And all QA and Intergration changes should be backward merged to Develop
+    ```
+    $ git ffetch
+    $ git checkout integration
+    $ git merge --no-ff qa
+    $ git tfs rcheckin -i integration
+    $ git push upstream integration:integration
+    $ git checkout develop
+    $ git merge --no-ff integration
+    $ git tfs rcheckin -i develop
+    $ git push upstream develop:develop
+    ```
 
 7. Hurry! A critical issue in Production!
 
@@ -121,9 +138,15 @@ Sprint `N` starts. In the planning we choose a lot of nice features to implement
 
 #### Notes
 
-<!--TODO: review it -->
+##### Try to keep upstream updated
 
-Eventualliy in steps 1, X or Y, developer could detect that `upstream` is not updated to TFS related branch status, so...
+If some team members are still working with TFS without Git, it is possible that `tfs/default` has more commits than `upstream/develop`. In that case, it is easy to push the missed commits to `upstream`
+
+```
+$ git checkout tfs/default
+$ git push upstream HEAD:develop
+```
+<!-- TODO: Add more notes -->
 
 
 [DCA flow]: dca-flow.html
