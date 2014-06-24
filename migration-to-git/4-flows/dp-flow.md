@@ -7,7 +7,7 @@ title: Flows and Branching models
 
 **_based on [DCA flow]_**
 
-Our DCA project has been merged with some other projects of the same client, you can find more information about the context and the desired work-flow in [DCA flow] page. The idea is basically the same, but sadly, the client requires TFS, so, we could use Git and GitHub, but each feature branch should be also merged to TFS. It give us a little overhead, but is still better than pure TFS. 
+Our DCA project has been merged with some other projects of the same client, you can find more information about the context and the desired work-flow in [DCA flow] page. The idea is basically the same, but sadly, the client requires TFS, so, we could use Git and GitHub, but each _feature branch_ should be also merged to TFS. It give us a little overhead, but is still better than pure TFS. 
 
 #### Local environment configuration
 
@@ -35,7 +35,7 @@ If it doesn't work (it is possible because git-tfs isn't so predictable) you can
 
 Each developer has a fork of `upstream`, and it is refereed in his own local clone as `origin`. If he wants, he could add references to other developers forks in order to be updated about their work or cherry pick some commits.
 
-In developer's forks, there will be stored the features branches.
+In developer's forks, there will be stored the _feature branches_.
 
 The result should be something similar to this:
 
@@ -52,17 +52,17 @@ Sprint `N` starts. In the planning we choose a lot of nice features to implement
     * If the task is enough large, he can create a sub-task.
     * The task is moved to "in progress" state. 
     * Developer fetches remote Git and TFS repositories.
-        * It can be done trough our self utility function [ffetch](https://github.com/MakingSense/git-helpers#ffetch).
-            ```
-            $ git ffetch
-            ```
-        * Or with git and git-tfs
-            ```
-            $ git fetch upstream
-            $ git checkout -B develop 
-            $ git reset --hard upstream/develop
-            $ git tfs fetch -i default
-            ```
+    ```
+    # Using git-tfs and git directly
+    $ git fetch upstream
+    $ git checkout -B develop 
+    $ git reset --hard upstream/develop
+    $ git tfs fetch -i default
+    ```
+    ```
+    # Or using our self utility function ffetch
+    $ git ffetch
+    ```
     * Creates a new local branch for the feature based on `upstream/develop` or `tfs/default` (see [create a new branch]). Our convention is:
         * Lowercase
         * No spaces
@@ -76,34 +76,34 @@ Sprint `N` starts. In the planning we choose a lot of nice features to implement
 2. Our developer works in the task
 
     * He tries to commit atomic and meaning changes (see [commit changes]).
-    * He tries to keep his changes pushed to his `origin` repository _feature_ branch (see [push to a remote repo]).
+    * He tries to keep his changes pushed to his `origin` repository _feature branch_ (see [push to a remote repo]).
     * Regularly, he could fetch remotes and merge or rebase his branch on `upstream/develop` in order to keep his work updated.
 	  
 3. Task is done
 
-    * In general, it is a good idea to fetch remote Git and TFS repositories and update _feature_ branch merging or rebasing.
+    * In general, it is a good idea to fetch remote Git and TFS repositories and update _feature branch_ merging or rebasing.
     * Our developer push all his changes to `origin` and creates a _pull request_ to `upstream/develop` (see [creating a pull request]).
     * Some other developers in the team do a quick code review and comment in GitHub.
-    * If something is wrong, discussion can continue in the _pull request_ and fixes can be push to the `origin` _feature_ branch.
+    * If something is wrong, discussion can continue in the _pull request_ and fixes can be push to the `origin` _feature branch_.
     * When the code has been reviewed, and eventually fixed, it could be merge into `tfs/default` using git-tfs and pushed to upstream
-        ```
-        $ git tfs checkintool -i default
-        $ git push upstream HEAD:develop
-        ```
+    ```
+    $ git tfs checkintool -i default
+    $ git push upstream HEAD:develop
+    ```
     * The _pull request_ should be automatically closed when GitHub detects the merge.
 
 4. Sprint finishes
 
     * `tfs/default` branch is merged to `tfs/integration` (and sometimes `tfs/qa`), without forgot to keep updated `upstream` branches.
-        ```
-        $ git ffetch
-        $ git checkout integration
-        $ git merge --no-ff develop
-        $ git tfs rcheckin -i integration
-        $ git push upstream integration:integration
-        ```
+    ```
+    $ git ffetch
+    $ git checkout integration
+    $ git merge --no-ff develop
+    $ git tfs rcheckin -i integration
+    $ git push upstream integration:integration
+    ```
     * Preparation to production is done in the new branch: updating meta-data like version number, build dates, etc.
-    * Sprint `N+1` starts with a planning.
+    * Sprint `N+1` planning starts.
 
 5. QA in `integration` and `qa` branches
 
