@@ -17,7 +17,7 @@ To support this work-flow you have to download and add to your `path` [git-tfs](
 
 We have a common `upstream` repository for all the team, `upstream` branches are:
 
-*   `develop` associated to `tfs/default` (Trunk)
+*   `develop` associated to `tfs/default` (aka `Trunk`)
 *   `integration` branch associated to `tfs/Integration`
 *   `qa` branch associated to `tfs/QA`
 
@@ -31,9 +31,9 @@ If it doesn't work (it is possible because git-tfs isn't so predictable) you can
 
 ![TFS remotes](config-tfs-remotes.png)
 
-Each developer has a fork of `upstream`, and it is refereed in his own local clone as `origin`. If he wants, he could add references to other developers forks in order to be updated about their work or cherry pick some commits.
+Each developer has his own repository at GitHub, forked from `upstream`. In there, he pushes _feature branches_ that he is working on.
 
-In developer's forks, there will be stored the _feature branches_.
+In his local repository, each developer referred his fork as `origin`. Also if he wants, he could add references to other developers forks in order to be updated about their work and also cherry pick their commits.
 
 The result should be something similar to this:
 
