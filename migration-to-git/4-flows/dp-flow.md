@@ -17,13 +17,13 @@ To support this work-flow you have to download and add to your `path` [git-tfs](
 
 We have a common `upstream` repository for all the team, `upstream` branches are:
 
-* `develop` associated to `tfs/default` (Trunk)
-* `integration` branch associated to `tfs/Integration`
-* `qa` branch associated to `tfs/QA`
+*   `develop` associated to `tfs/default` (Trunk)
+*   `integration` branch associated to `tfs/Integration`
+*   `qa` branch associated to `tfs/QA`
 
 After a clone of `upstream` you can configure TFS remotes using [bootstrap command](https://github.com/git-tfs/git-tfs/blob/master/doc/commands/bootstrap.md):
 
-```
+```console
 $ git tfs bootstrap
 ```
 
@@ -45,98 +45,129 @@ Sprint `N` starts. In the planning we choose a lot of nice features to implement
 
 **Steps:**
 
-1. A developer chooses a task or feature to implement from sprint board.
+1.  A developer chooses a task or feature to implement from sprint board.
 
-    * If the task is enough large, he can create a sub-task.
-    * The task is moved to "in progress" state. 
-    * Developer fetches remote Git and TFS repositories.
-    ```
-    # Using git-tfs and git directly
-    $ git fetch upstream
-    $ git checkout -B develop 
-    $ git reset --hard upstream/develop
-    $ git tfs fetch -i default
-    ```
-    ```
-    # Or using our self utility function ffetch
-    $ git ffetch
-    ```
-    * Creates a new local branch for the feature based on `upstream/develop` or `tfs/default` (see [create a new branch]). Our convention is:
-        * Lowercase
-        * No spaces
-        * No slashes (`/` nor `\`)
-        * Starts with task id
-        * Example `dp-260-common-functions-to-utilities`
-        ```
-        $ git checkout -b dp-260-common-functions-to-utilities tfs/default
-        ```
-        
-2. Our developer works in the task
+    *   If the task is enough large, he can create a sub-task.
 
-    * He tries to commit atomic and meaning changes (see [commit changes]).
-    * He tries to keep his changes pushed to his `origin` repository _feature branch_ (see [push to a remote repo]).
-    * Regularly, he could fetch remotes and merge or rebase his branch on `upstream/develop` in order to keep his work updated.
+    *   The task is moved to "in progress" state. 
+
+    *   Developer fetches remote Git and TFS repositories.
+
+        *   Using git-tfs and git directly
+  
+            ```console
+            $ git fetch upstream
+            $ git checkout -B develop 
+            $ git reset --hard upstream/develop
+            $ git tfs fetch -i default
+            ```
+
+        *   Or using our self utility function ffetch
+
+            ```console
+            $ git ffetch
+            ```
+
+    *   Creates a new local branch for the feature based on `upstream/develop` or `tfs/default` (see [create a new branch]). Our convention is:
+
+        *   Lowercase
+
+        *   No spaces
+
+        *   No slashes (`/` nor `\`)
+
+        *   Starts with task id
+
+        *   Example `dp-260-common-functions-to-utilities`
+
+            ```console
+            $ git checkout -b dp-260-common-functions-to-utilities tfs/default
+            ```
+            
+2.  Our developer works in the task
+
+    *   He tries to commit atomic and meaning changes (see [commit changes]).
+
+    *   He tries to keep his changes pushed to his `origin` repository _feature branch_ (see [push to a remote repo]).
+
+    *   Regularly, he could fetch remotes and merge or rebase his branch on `upstream/develop` in order to keep his work updated.
 	  
-3. Task is done
+3.  Task is done
 
-    * In general, it is a good idea to fetch remote Git and TFS repositories and update _feature branch_ merging or rebasing.
-    * Our developer push all his changes to `origin` and creates a _pull request_ to `upstream/develop` (see [creating a pull request]).
-    * Some other developers in the team do a quick code review and comment in GitHub.
-    * If something is wrong, discussion can continue in the _pull request_ and fixes can be push to the `origin` _feature branch_.
-    * When the code has been reviewed, and eventually fixed, it could be merge into `tfs/default` using git-tfs and pushed to upstream
-    ```
-    $ git tfs checkintool -i default
-    $ git push upstream HEAD:develop
-    ```
-    * The _pull request_ should be automatically closed when GitHub detects the merge.
+    *   In general, it is a good idea to fetch remote Git and TFS repositories and update _feature branch_ merging or rebasing.
 
-4. Sprint finishes
+    *   Our developer push all his changes to `origin` and creates a _pull request_ to `upstream/develop` (see [creating a pull request]).
 
-    * `tfs/default` branch is merged to `tfs/integration` (and sometimes `tfs/qa`), without forgot to keep updated `upstream` branches.
-    ```
-    $ git ffetch
-    $ git checkout integration
-    $ git merge --no-ff develop
-    $ git tfs rcheckin -i integration
-    $ git push upstream integration:integration
-    ```
-    * Preparation to production is done in the new branch: updating meta-data like version number, build dates, etc.
-    * Sprint `N+1` planning starts.
+    *   Some other developers in the team do a quick code review and comment in GitHub.
 
-5. QA in `integration` and `qa` branches
+    *   If something is wrong, discussion can continue in the _pull request_ and fixes can be push to the `origin` _feature branch_.
 
-    * When the client and QA team detect issues from past sprint (`N`) code, they are prioritized and some of them cold be included in current sprint (`N+1`)
-    * In order to fix each of them, our developer creates a new branch, the steps are like in points `1`, `2` and `3` but based on `tfs/integration` or `tfs/qa` branches in place of `develop`.
-    * Changes on `integration` and `qa` are fairly often merged to `develop`.
+    *   When the code has been reviewed, and eventually fixed, it could be merge into `tfs/default` using git-tfs and pushed to upstream
+     
+        ```console
+        $ git tfs checkintool -i default
+        $ git push upstream HEAD:develop
+        ```
 
-6. The release!
+    *   The _pull request_ should be automatically closed when GitHub detects the merge.
 
-    * The release date day has arrived, `tfs/qa` is merged to a _"tag"_ version branch in TFS.
-    ```
-    $ git ffetch
-    $ git checkout qa
-    $ git tfs branch $/CompanyName/CentralAdministration/tags/v1.30.0 tag-v1.30.1
-    ```
-    * And all QA and Intergration changes should be backward merged to Develop
-    ```
-    $ git ffetch
-    $ git checkout integration
-    $ git merge --no-ff qa
-    $ git tfs rcheckin -i integration
-    $ git push upstream integration:integration
-    $ git checkout develop
-    $ git merge --no-ff integration
-    $ git tfs rcheckin -i develop
-    $ git push upstream develop:develop
-    ```
+4.  Sprint finishes
 
-7. Hurry! A critical issue in Production!
+    *   `tfs/default` branch is merged to `tfs/integration` (and sometimes `tfs/qa`), without forgot to keep updated `upstream` branches.
 
-    * If something goes wrong in production, the process to fix it is similar to steps `5` but in place of using `integration` or `qa` branches, it is done in a new _hotfix branch_ based on _"tag"_ version branch.
-	
-#### Git-TFS cheatsheet
+        ```console
+        $ git ffetch
+        $ git checkout integration
+        $ git merge --no-ff develop
+        $ git tfs rcheckin -i integration
+        $ git push upstream integration:integration
+        ```
+         
 
-![Git-TFS cheatsheet](git-tfs-cheatsheet.png)
+    *   Preparation to production is done in the new branch: updating meta-data like version number, build dates, etc.
+
+    *   Sprint `N+1` planning starts.
+
+5.  QA in `integration` and `qa` branches
+
+    *   When the client and QA team detect issues from past sprint (`N`) code, they are prioritized and some of them cold be included in current sprint (`N+1`)
+
+    *   In order to fix each of them, our developer creates a new branch, the steps are like in points `1`, `2` and `3` but based on `tfs/integration` or `tfs/qa` branches in place of `develop`.
+
+    *   Changes on `integration` and `qa` are fairly often merged to `develop`.
+
+6.  The release!
+
+    *   The release date day has arrived, `tfs/qa` is merged to a _"tag"_ version branch in TFS.
+
+        ```console
+        $ git ffetch
+        $ git checkout qa
+        $ git tfs branch $/CompanyName/CentralAdministration/tags/v1.30.0 tag-v1.30.1
+        ```
+
+    *   And all QA and Intergration changes should be backward merged to Develop
+
+        ```console
+        $ git ffetch
+        $ git checkout integration
+        $ git merge --no-ff qa
+        $ git tfs rcheckin -i integration
+        $ git push upstream integration:integration
+        $ git checkout develop
+        $ git merge --no-ff integration
+        $ git tfs rcheckin -i develop
+        $ git push upstream develop:develop
+        ```
+
+7.  Hurry! A critical issue in Production!
+
+    *   If something goes wrong in production, the process to fix it is similar to steps `5` but in place of using `integration` or `qa` branches, it is done in a new _hotfix branch_ based on _"tag"_ version branch.
+
+    
+#### Git-TFS cheat-sheet
+
+![Git-TFS cheat-sheet](git-tfs-cheatsheet.png)
 
 #### Notes
 
@@ -144,10 +175,11 @@ Sprint `N` starts. In the planning we choose a lot of nice features to implement
 
 If some team members are still working with TFS without Git, it is possible that `tfs/default` has more commits than `upstream/develop`. In that case, it is easy to push the missed commits to `upstream`
 
-```
+```console
 $ git checkout tfs/default
 $ git push upstream HEAD:develop
 ```
+
 <!-- TODO: Add more notes -->
 
 
