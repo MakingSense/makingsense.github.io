@@ -15,9 +15,7 @@ To support this work-flow you have to download and add to your `path` [git-tfs](
 
 #### Remote repositories
 
-Our `upstream` repository path is <https://github.com/MakingSense/dca>.
-
-`upstream` branches:
+We have a common `upstream` repository for all the team, `upstream` branches are:
 
 * `develop` associated to `tfs/default` (Trunk)
 * `integration` branch associated to `tfs/Integration`
