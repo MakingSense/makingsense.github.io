@@ -62,7 +62,7 @@ Sprint `N` starts. In the planning we choose a lot of nice features to implement
             $ git tfs fetch -i default
             ```
 
-        *   Or using our self utility function ffetch
+        *   Or using our self [utility function ffetch](https://github.com/MakingSense/git-helpers#ffetch)
 
             ```console
             $ git ffetch
