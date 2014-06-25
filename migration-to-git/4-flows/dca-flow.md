@@ -54,9 +54,8 @@ contributor wants.
 You can track the changes of other personal forks (see [configure remotes]), in
 that case we suggest to call them as the owner's username.
 
-**Note:** It is allowed to _rewrite the history_ in personal branches, but try 
-to not do it on branches with _pull request_ associated or shared with other 
-users.
+**Note:** It is allowed to _rewrite the history_ in personal branches, but think it twice 
+before do it on branches with _pull request_ associated or shared with other users.
 
 **Note II:** If you do not like to use a personal fork, no problem, you can call `origin` to https://github.com/MakingSense/dca and create your branches there. _If it gets dirty, we will ban this possibility in a future_.
 

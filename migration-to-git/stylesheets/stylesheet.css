@@ -97,6 +97,10 @@ p {
   margin: 10px 0 15px 0;
 }
 
+li > p {
+  margin: 0;
+}
+
 footer p {
   color: #f2f2f2;
 }
@@ -201,12 +205,12 @@ ul, ol, dl {
 }
 
 ul {
-  list-style: inside;
+  list-style: disc;
   padding-left: 20px;
 }
 
 ol {
-  list-style: decimal inside;
+  list-style: decimal;
   padding-left: 20px;
 }
 
