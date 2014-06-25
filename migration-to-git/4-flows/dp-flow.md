@@ -133,6 +133,10 @@ Sprint `N` starts. In the planning we choose a lot of nice features to implement
 7. Hurry! A critical issue in Production!
 
     * If something goes wrong in production, the process to fix it is similar to steps `5` but in place of using `integration` or `qa` branches, it is done in a new _hotfix branch_ based on _"tag"_ version branch.
+	
+#### Git-TFS cheatsheet
+
+![Git-TFS cheatsheet](git-tfs-cheatsheet.png)
 
 #### Notes
 
