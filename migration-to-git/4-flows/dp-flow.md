@@ -155,8 +155,8 @@ Sprint `N` starts. In the planning we choose a lot of nice features to implement
         $ git tfs rcheckin -i integration
         $ git push upstream integration:integration
         $ git checkout -B develop tfs/default
-        $ git tfs rcheckin -i develop
         $ git merge --no-ff tfs/integration
+        $ git tfs rcheckin -i default
         $ git push upstream develop:develop
         ```
 
