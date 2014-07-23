@@ -143,7 +143,7 @@ Sprint `N` starts. In the planning we choose a lot of nice features to implement
         ```console
         $ git ffetch
         $ git checkout -B qa tfs/qa
-        $ git tfs branch $/CompanyName/CentralAdministration/tags/v1.30.0 tag-v1.30.1
+        $ git tfs branch $/CompanyName/CentralAdministration/tags/v1.30.0 tag-v1.30.0
         ```
 
     *   And all QA and Intergration changes should be backward merged to Develop
