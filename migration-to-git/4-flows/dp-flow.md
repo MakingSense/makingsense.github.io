@@ -9,6 +9,8 @@ title: Flows and Branching models
 
 Our DCA project has been merged with some other projects of the same client, you can find more information about the context and the desired work-flow in [DCA flow] page. The idea is basically the same, but sadly, the client requires TFS, so, we could use Git and GitHub, but each _feature branch_ should be also merged to TFS. It give us a little overhead, but is still better than pure TFS. 
 
+Also you can see a [simplification version in Spanish](dp-flow-in-spanish/dp-flow-in-spanish.html).
+
 #### Local environment configuration
 
 To support this work-flow you have to download and add to your `path` [git-tfs](http://git-tfs.com/) (at the moment of writing this article, we are using the git-tfs v0.20.0) and [git-helpers](https://github.com/MakingSense/git-helpers#git-helpers).
