@@ -16,16 +16,9 @@ title: Flujo completo de Portal Git/TFS con SourceTree.
 
     ![template](ffetch.png)
 
-2.	Me posiciono sobre **upstream/develop:*** realizo un “checkout” desde el terminal de SourceTree con el siguiente código 
-
-	```console
-	$ git checkout -B develop upstream/develop.
-	```
-	  
-	![template](checkout.png)
 
 
-3.	Creo la rama: Botón derecho sobre **upstream/develop** y luego selecciono Branch. Le asigno un nombre a dicha rama y presiono “Create Branch”. Los nombres de la rama deben cumplir los siguientes requisitos:
+2.	Creo la rama: Botón derecho sobre **upstream/develop** y luego selecciono Branch. Le asigno un nombre a dicha rama y presiono “Create Branch”. Los nombres de la rama deben cumplir los siguientes requisitos:
 
 	* Debe estar escrita toda en minúscula.
 	* Debe contener el ID de la tarea a la cual hace referencia. ej: dp-239
