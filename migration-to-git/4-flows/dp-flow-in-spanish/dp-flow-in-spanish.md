@@ -8,7 +8,7 @@ title: Flujo completo de Portal Git/TFS con SourceTree.
 
 **Se debe crear una rama por cada tarea.**
 
-1.	Obtengo las actualizaciones del proyecto:*  Realizo un ffetch desde el terminal de SourceTree con el siguiente código (Se puede realizar posicionado en cualquier rama).
+1.	Obtengo las actualizaciones del proyecto: Realizo un ffetch desde el terminal de SourceTree con el siguiente código (Se puede realizar posicionado en cualquier rama).
 
     ```console
     $ git ffetch
@@ -50,7 +50,7 @@ title: Flujo completo de Portal Git/TFS con SourceTree.
 
 ### Merge: 
 
-1.	Obtengo las actualizaciones del proyecto:*  Realizo un ffetch desde el terminal de SourceTree con el siguiente código (Se puede realizar posicionado en cualquier rama).
+1.	Obtengo las actualizaciones del proyecto: Realizo un ffetch desde el terminal de SourceTree con el siguiente código (Se puede realizar posicionado en cualquier rama).
 
 	```console
 	$ git ffetch
