@@ -8,7 +8,7 @@ title: Flujo completo de Portal Git/TFS
 
  **Se debe crear una rama por cada tarea.**
 
-•	*1- Obtengo las actualizaciones del proyecto:*  Realizo un ffetch desde el terminal de SoruceTree con el siguiente código(Se puede realizar posicionado en cualquier rama).
+•	*1- Obtengo las actualizaciones del proyecto:*  Realizo un ffetch desde el terminal de SoruceTree con el siguiente código (Se puede realizar posicionado en cualquier rama).
 
 ```console
 $ git ffetch
@@ -30,7 +30,7 @@ $ git checkout -B develop upstream/develop.
 *	Debe estar escrita toda en minúscula.
 *	Debe contener el ID de la tarea a la cual hace referencia. ej: dp-239
 *	Las palabras deben ir separadas por – (guion medio).
-*	El nombre de la rama deber hace referencia al título de dicha tarea.
+*	El nombre de la rama deber hacer referencia al título de dicha tarea.
 
 
 ![template](format-branch.png)
@@ -39,7 +39,7 @@ $ git checkout -B develop upstream/develop.
 
 **Se debe estar posicionado sobre la rama que se desea hacer el commit haciendo doble click en la rama.**
 
-•	*1-* Debemos verificar si los archivos son los que hemos modificado y seleccionar el primero si poseo más de uno.
+•	*1-* Debemos verificar si los archivos son los que hemos modificado y seleccionar el primero si poseemos más de uno.
 
 •	*2-* Corroborar que los cambios realizados sean correctos.
 
@@ -57,7 +57,7 @@ $ git checkout -B develop upstream/develop.
 
 ### Merge: 
 
-•	*1- Obtengo las actualizaciones del proyecto:*  Realizo un ffetch desde el terminal de SoruceTree con el siguiente código(Se puede realizar posicionado en cualquier rama).
+•	*1- Obtengo las actualizaciones del proyecto:*  Realizo un ffetch desde el terminal de SoruceTree con el siguiente código (Se puede realizar posicionado en cualquier rama).
 
 ```console
 $ git ffetch
@@ -74,11 +74,11 @@ $ git ffetch
 $ git tfs checkintool -i default
 ```
 
-![template](checkout.png)
+![template](checkingtool.png)
 
 •	*4-* Se abrirá una nueva ventana de tfs en la cual debemos comentar lo realizado en dicho merge. Los comentarios de los merge deben cumplir los siguientes requisitos:
 
-*	El ID de la tarea debe estar escrito en mayúscula y separado por – (guion medio) las letras de los números, luego un espacio y otro – (guion medio).  ej: DP- 376 -
+*	El ID de la tarea debe estar escrito en mayúscula y separado por – (guion medio) las letras de los números, luego un espacio y otro – (guion medio).  ej: DP-376 -
 
 *	El título debe contener el ID de la tarea a la cual hace referencia. ej: dp-239. Este debe hacer referencia al título de dicha tarea. Luego realizar dos interlineados.
 
