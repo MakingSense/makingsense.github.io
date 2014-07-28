@@ -9,7 +9,7 @@ title: Flujo completo de Portal Git/TFS
 
 **Se debe crear una rama por cada tarea.**
 
-1.	Obtengo las actualizaciones del proyecto:*  Realizo un ffetch desde el terminal de SoruceTree con el siguiente código (Se puede realizar posicionado en cualquier rama).
+1.	Obtengo las actualizaciones del proyecto:*  Realizo un ffetch desde el terminal de SourceTree con el siguiente código (Se puede realizar posicionado en cualquier rama).
 
     ```console
     $ git ffetch
@@ -17,7 +17,7 @@ title: Flujo completo de Portal Git/TFS
 
     ![template](ffetch.png)
 
-2.	Me posiciono sobre **upstream/develop:*** realizo un “checkout” desde el terminal de SoruceTree con el siguiente código 
+2.	Me posiciono sobre **upstream/develop:*** realizo un “checkout” desde el terminal de SourceTree con el siguiente código 
 
 	```console
 	$ git checkout -B develop upstream/develop.
@@ -58,7 +58,7 @@ title: Flujo completo de Portal Git/TFS
 
 ### Merge: 
 
-1.	Obtengo las actualizaciones del proyecto:*  Realizo un ffetch desde el terminal de SoruceTree con el siguiente código (Se puede realizar posicionado en cualquier rama).
+1.	Obtengo las actualizaciones del proyecto:*  Realizo un ffetch desde el terminal de SourceTree con el siguiente código (Se puede realizar posicionado en cualquier rama).
 
 	```console
 	$ git ffetch
@@ -69,7 +69,7 @@ title: Flujo completo de Portal Git/TFS
 
 2.	Me posiciono sobre la rama que deseo realizar el merge (Checkout sobre la rama).
 
-3.	Realizo un **checkintool** sobre la rama **default** desde el terminal de SoruceTree con el siguiente código 
+3.	Realizo un **checkintool** sobre la rama **default** desde el terminal de SourceTree con el siguiente código 
 
 	```console
 	$ git tfs checkintool -i default
@@ -89,7 +89,7 @@ title: Flujo completo de Portal Git/TFS
 	
 	![template](format-marge1.png)
 
-5.	Realizo un push de upstream sobre la rama develop desde el terminal de SoruceTree con el siguiente código git push upstream HEAD:develop
+5.	Realizo un push de upstream sobre la rama develop desde el terminal de SourceTree con el siguiente código git push upstream HEAD:develop
 
 	```console
 	$ git push upstream HEAD:develop
