@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Flujo completo de Portal Git/TFS
+title: Flujo completo de Portal Git/TFS con SourceTree.
 ---
 
-#### Software: SourceTree.
 
 ### Creación de rama (Branch): 
 
@@ -31,14 +30,14 @@ title: Flujo completo de Portal Git/TFS
 	* Debe estar escrita toda en minúscula.
 	* Debe contener el ID de la tarea a la cual hace referencia. ej: dp-239
 	* Las palabras deben ir separadas por – (guion medio).
-	* El nombre de la rama deber hacer referencia al título de dicha tarea.
+	* El nombre de la rama deber estar relacionado con los cambios que se generar en dicha rama.
 
 
 	![template](format-branch.png)
 
 ### Commit: 
 
-**Se debe estar posicionado sobre la rama que se desea hacer el commit haciendo doble click en la rama.**
+**Verificar estar posicionado en la rama deseada**
 
 1.	Debemos verificar si los archivos son los que hemos modificado y seleccionar el primero si poseemos más de uno.
 
@@ -48,7 +47,7 @@ title: Flujo completo de Portal Git/TFS
 
 	![template](commit.png)
 
-4.	Seleccionar el checkbox de **Push** para realizarlo en **Origin**.
+4.	*(opcional)* Seleccionar el checkbox de **Push** para realizarlo en **Origin**. (Lo recomendable es hacer el **Push** al finalizar la tarea. Otra metodología seria hacerlo con cada commit realizado).
 
 5.	Se deben seleccionar solo los archivos que deseamos commit y que estén relacionados explícitamente con la tarea.
 
@@ -77,7 +76,7 @@ title: Flujo completo de Portal Git/TFS
 	
 	![template](checkingtool.png)
 
-4.	Se abrirá una nueva ventana de tfs en la cual debemos comentar lo realizado en dicho merge. Los comentarios de los merge deben cumplir los siguientes requisitos:
+4.	Se abrirá una nueva ventana de tfs en la cual debemos comentar los cambios realizados. Los comentarios de los merge deben cumplir los siguientes requisitos:
 
 	* El ID de la tarea debe estar escrito en mayúscula y separado por – (guion medio) las letras de los números, luego un espacio y otro – (guion medio).  ej: DP-376 -
 
