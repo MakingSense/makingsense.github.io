@@ -9,7 +9,6 @@ This is a little example of the [flow used] in Doppler to develop a feature. The
 
 If you are new on Doppler you have to follow the next steps:
 
-1. [Fork the main repository] from [github]
 
 	![fork repository](doppler-flow-example/fork_repository.png)
 	
@@ -66,7 +65,7 @@ For this action, you don't need to update your local repository (step 7). Only d
 	
 	![pull request done](doppler-flow-example/pull_request_done.png)
 	
-12. Then an administrator make a code review, looking the files changes in all commits that compounds the [Pull Request].  Comments on the code can be do for anyone who has access to the Doppler repository. In this case, the administrator reject the [Pull Request] because it contains a disallowed file deletion. 
+12. Then other developers make code reviews, looking the files changes in all commits that compounds the [Pull Request].  Comments on the code can be do for anyone who has access to the Doppler repository. In this case, the administrator reject the [Pull Request] because it contains a disallowed file deletion. 
 
 	![code review](doppler-flow-example/code_review.png)
 	
@@ -74,7 +73,7 @@ For this action, you don't need to update your local repository (step 7). Only d
 	
 	![change from code review](doppler-flow-example/change_from_code_review.png)
 	
-13. After the last pushed commit, the administrator of the main repository approves and merge the [Pull Request]. 
+13. After all reviews and last pushed commit, [Pull Request] author merges the [Pull Request]. 
 
 [github]: https://www.github.com
 [GitExtensions]: https://code.google.com/p/gitextensions/
