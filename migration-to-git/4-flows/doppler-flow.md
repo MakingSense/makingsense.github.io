@@ -77,7 +77,7 @@ Sprint `N` starts. In the planning we choose a lot features to implement!
     * Some other developers in the team do a quick code review.
     * After someone else has reviewed and signed off on the feature it could be 
       merged to `upstream/develop` (see [working with pull requests]). 
-    * If something is wrong, discussion can continue in the _pull request_ and fixes can be push to the _feature_ branch . When all issues are fixed it could be merged
+    * If something is wrong, discussion can continue in the _pull request_ and fixes can be push to the _feature_ branch . When all issues are fixed it could be merged by the _pull request_ author.
 
 4. Sprint finishes
 
