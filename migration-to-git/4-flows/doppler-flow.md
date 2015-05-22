@@ -4,7 +4,7 @@ title: Flows and Branching models
 ---
 
 ### Doppler Flow
-me
+
 **_based on [git-flow]_**
 
 In this project we have time boxed sprints and one release for sprint.
